@@ -71,6 +71,17 @@
 			</config>
 		</view>
 
+		<view n="0">
+			<internal archive="y">true</internal>
+			<config>
+				<!-- x/y/z == right/up/back --> 
+				<x-offset-m archive="y">-0.4</x-offset-m>
+				<y-offset-m archive="y">1.49</y-offset-m>
+				<z-offset-m archive="y">-14.65</z-offset-m>
+				<pitch-offset-deg archive="y">-8.0</pitch-offset-deg>
+			</config>
+    </view>
+
 		<view n="106">
 			<name>Copilot</name>
 			<type>lookfrom</type>
@@ -83,7 +94,7 @@
 				<heading-offset-deg>0</heading-offset-deg>
 				<x-offset-m archive="y">0.51</x-offset-m>
 				<y-offset-m archive="y">1.28</y-offset-m>
-				<z-offset-m archive="y">-16.98</z-offset-m>
+				<z-offset-m archive="y">-14.65</z-offset-m>
 			</config>   
 		</view>
 
@@ -99,7 +110,7 @@
 				<heading-offset-deg>0</heading-offset-deg>
 				<x-offset-m archive="y">-0.15</x-offset-m>
 				<y-offset-m archive="y">1.3</y-offset-m>
-				<z-offset-m archive="y">-17.6</z-offset-m>
+				<z-offset-m archive="y">-15.27</z-offset-m>
 			</config>
 		</view>	
 		<view n="101">
@@ -174,7 +185,7 @@
 				<heading-offset-deg>0</heading-offset-deg>
 				<x-offset-m archive="y">0</x-offset-m>
 				<y-offset-m archive="y">1.26</y-offset-m>
-				<z-offset-m archive="y">-17.26</z-offset-m>
+				<z-offset-m archive="y">-14.93</z-offset-m>
 			</config>
 		</view>
 	</sim>
