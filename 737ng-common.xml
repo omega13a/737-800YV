@@ -56,58 +56,58 @@
 				<path></path>
 			</electrical>
 			<autopilot n="0">
-				<path>Aircraft/737-800YV/Systems/737_pfd.xml</path>
+				<path>Aircraft/737-Next-Generation/Systems/737_pfd.xml</path>
 			</autopilot>
 			<autopilot n="1">
-				<path>Aircraft/737-800YV/Systems/737_fmc_fg.xml</path>
+				<path>Aircraft/737-Next-Generation/Systems/737_fmc_fg.xml</path>
 			</autopilot>
 			<autopilot n="2">
-				<path>Aircraft/737-800YV/Systems/hydraulics.xml</path>
+				<path>Aircraft/737-Next-Generation/Systems/hydraulics.xml</path>
 			</autopilot>
 			<autopilot n="3">
-				<path>Aircraft/737-800YV/Systems/aircraft-systems-logic.xml</path>
+				<path>Aircraft/737-Next-Generation/Systems/aircraft-systems-logic.xml</path>
 			</autopilot>
 			<autopilot n="4">
 				<name>AFDS DRIVERS</name>
-				<path>Aircraft/737-800YV/Systems/afds-drivers.xml</path>
+				<path>Aircraft/737-Next-Generation/Systems/afds-drivers.xml</path>
 			</autopilot>
 			<autopilot n="5">
 				<name>AFDS ROLL YAW</name>
-				<path>Aircraft/737-800YV/Systems/afds-roll-yaw.xml</path>
+				<path>Aircraft/737-Next-Generation/Systems/afds-roll-yaw.xml</path>
 			</autopilot>
 			<autopilot n="6">
 				<name>AFDS PITCH</name>
-				<path>Aircraft/737-800YV/Systems/afds-pitch.xml</path>
+				<path>Aircraft/737-Next-Generation/Systems/afds-pitch.xml</path>
 			</autopilot>
 			<autopilot n="7">
 				<name>AFDS THRUST</name>
-				<path>Aircraft/737-800YV/Systems/afds-thrust.xml</path>
+				<path>Aircraft/737-Next-Generation/Systems/afds-thrust.xml</path>
 			</autopilot>
 			<autopilot n="8">
 				<name>IT-CWS</name>
-				<path>Aircraft/737-800YV/Systems/it-cws.xml</path>
+				<path>Aircraft/737-Next-Generation/Systems/it-cws.xml</path>
 			</autopilot>
 			<autopilot n="9">
-				<path>Aircraft/737-800YV/Systems/autospeedbrake.xml</path>
+				<path>Aircraft/737-Next-Generation/Systems/autospeedbrake.xml</path>
 			</autopilot>
 			<autopilot n="10">
-				<path>Aircraft/737-800YV/Systems/fl2070_sound.xml</path>
+				<path>Aircraft/737-Next-Generation/Systems/fl2070_sound.xml</path>
 			</autopilot>
 			<autopilot n="11">
-				<path>Aircraft/737-800YV/Systems/fadec.xml</path>
+				<path>Aircraft/737-Next-Generation/Systems/fadec.xml</path>
 			</autopilot>
-			<path>Aircraft/737-800YV/Systems/systems.xml</path>
+			<path>Aircraft/737-Next-Generation/Systems/systems.xml</path>
 			<property-rule n="101">
-				<path>Aircraft/737-800YV/Systems/instrument-filters.xml</path>
+				<path>Aircraft/737-Next-Generation/Systems/instrument-filters.xml</path>
 			</property-rule>
 		</systems>
 
 		<instrumentation>
-			<path>Aircraft/737-800YV/Systems/instrumentation.xml</path>
+			<path>Aircraft/737-Next-Generation/Systems/instrumentation.xml</path>
 		</instrumentation>
 		
 		<sound>
-			<path>Aircraft/737-800YV/Sounds/737-sound.xml</path>
+			<path>Aircraft/737-Next-Generation/Sounds/737-sound.xml</path>
 		</sound>
 		
 		<virtual-cockpit archive="y">true</virtual-cockpit>
@@ -230,7 +230,7 @@
 		<menubar>
 			<default>
 				<menu n="100">
-					<label>737-800</label>
+					<label>737 Next Generation</label>
 					<enabled type="bool">true</enabled>
 					<item>
 						<label>Aircraft Config</label>
@@ -792,7 +792,7 @@
 				<category-14>  0 </category-14> <!-- AUDIO_OUTPUT_LEVEL -->
 			</configuration-module>
 			<voice>		
-				<file-prefix type="string">Aircraft/737-800YV/Sounds/GPWS/</file-prefix>		
+				<file-prefix type="string">Aircraft/737-Next-Generation/Sounds/GPWS/</file-prefix>		
 			</voice>
 			<inputs>                            <!-- Module I/O -->
 				<arinc429>
