@@ -26,6 +26,8 @@
 			</preview>
 		</previews>
 
+		<liveries-path type="string">Models/Liveries-800</liveries-path>
+
 		 <model>
 			<path>Aircraft/737-Next-Generation/Models/737-800.xml</path>       
 			<livery>
