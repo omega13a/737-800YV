@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<PropertyList>
+<PropertyList include="737-model-common.xml">
   <path>737-800.ac</path>
   <animation>
     <texture>737-800.png</texture>
