@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+ 
+<PropertyList>
+<sim>
+    <model>
+        <livery>                     
+            <name type="string">Aires Colombia</name>
+            <texture>/Liveries-700/HK-4641.png</texture>            
+        </livery>        
+    </model>
+</sim>
+</PropertyList>

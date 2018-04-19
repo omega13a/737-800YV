@@ -3,10 +3,10 @@
 <PropertyList include="737ng-common.xml">
 
 	<sim>
-		<description>Boeing 737-800</description>
-		<liveries-path type="string">Aircraft/737-Next-Generation/Models/Liveries-800</liveries-path>
+		<description>Boeing 737-700</description>
+		<liveries-path type="string">Aircraft/737-Next-Generation/Models/Liveries-700</liveries-path>
 
-		<aero>737-800</aero>
+		<aero>737-700</aero>
 		<startup>
                         <splash-texture>Aircraft/737-Next-Generation/Splash/splash-1.png</splash-texture>
                         <splash-texture>Aircraft/737-Next-Generation/Splash/splash-2.png</splash-texture>
@@ -27,7 +27,7 @@
 		</previews>
 
 		 <model>
-			<path>Aircraft/737-Next-Generation/Models/737-800.xml</path>       
+			<path>Aircraft/737-Next-Generation/Models/737-700.xml</path>       
 			<livery>
 				<file>BOE</file>
 				<newwinglets type="bool">false</newwinglets>   

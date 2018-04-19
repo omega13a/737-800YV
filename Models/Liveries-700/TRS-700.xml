@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+ 
+<PropertyList>
+<sim>
+    <model>
+        <livery>                     
+            <name type="string">AirTran Airways</name>
+            <texture>Liveries-700/TRS-700.png</texture>            
+        </livery>        
+    </model>
+</sim>
+</PropertyList>

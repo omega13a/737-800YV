@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+ 
+<PropertyList>
+<sim>
+    <model>
+        <livery>                     
+            <name type="string">Aerolineas Argentinas</name>
+            <texture>Liveries-700/ARG-700.png</texture>            
+        </livery>        
+    </model>
+</sim>
+</PropertyList>
