@@ -7,7 +7,7 @@
   
   <nasal n="0">
 	<load>
-	 var livery_update = aircraft.livery_update.new("Aircraft/737-800YV/Models/Liveries-800");
+	 var livery_update = aircraft.livery_update.new("Aircraft/737-Next-Generation/Models/Liveries-800");
 	</load>
 	<unload>
 	 livery_update.stop();
@@ -60,7 +60,7 @@
   <parameters>
 	  <lightmap-enabled><use>controls/lighting/landing-lights-norm</use></lightmap-enabled>
     <texture n="3">
-      <image>Aircraft/737-800YV/Models/Effects/LightMap/737-800lightmap.png</image>
+      <image>Aircraft/737-Next-Generation/Models/Effects/LightMap/737-800lightmap.png</image>
     </texture>
     
   </parameters>
@@ -83,7 +83,7 @@
 
   <model>
     <name>Cockpit</name>
-    <path>Aircraft/737-800YV/Models/cockpit.xml</path>
+    <path>Aircraft/737-Next-Generation/Models/cockpit.xml</path>
     <offsets>
       <x-m>-18.32</x-m>
       <y-m>0.0</y-m>
@@ -93,7 +93,7 @@
   </model>
   <model>
     <name>passengersseats</name>
-    <path>Aircraft/737-800YV/Models/seats/passengers/passenger-seating.xml</path>
+    <path>Aircraft/737-Next-Generation/Models/seats/passengers/passenger-seating.xml</path>
     <condition>
       <not>
         <property>controls/switches/increase-fps</property>
@@ -102,7 +102,7 @@
   </model>
   <model>
     <name>LeftWing</name>
-    <path>Aircraft/737-800YV/Models/LWing.xml</path>
+    <path>Aircraft/737-Next-Generation/Models/LWing.xml</path>
     <offsets>
       <x-m>0.0</x-m>
       <y-m>0.0</y-m>
@@ -112,7 +112,7 @@
   </model>
   <model>
     <name>NoseGear</name>
-    <path>Aircraft/737-800YV/Models/NoseGear.xml</path>
+    <path>Aircraft/737-Next-Generation/Models/NoseGear.xml</path>
     <offsets>
       <x-m>0.0</x-m>
       <y-m>0.0</y-m>
@@ -123,7 +123,7 @@
 
   <model>
     <name>RightWing</name>
-    <path>Aircraft/737-800YV/Models/RWing.xml</path>
+    <path>Aircraft/737-Next-Generation/Models/RWing.xml</path>
     <offsets>
       <x-m>0.0</x-m>
       <y-m>0.0</y-m>
@@ -133,7 +133,7 @@
   </model>
   <model>
     <name>VertStab</name>
-    <path>Aircraft/737-800YV/Models/VertStab.xml</path>
+    <path>Aircraft/737-Next-Generation/Models/VertStab.xml</path>
     <offsets>
       <x-m>0.0</x-m>
       <y-m>0.0</y-m>
@@ -143,7 +143,7 @@
   </model>
   <model>
     <name>HorzStab</name>
-    <path>Aircraft/737-800YV/Models/HorzStab.xml</path>
+    <path>Aircraft/737-Next-Generation/Models/HorzStab.xml</path>
     <offsets>
       <x-m>0.0</x-m>
       <y-m>0.0</y-m>
@@ -164,7 +164,7 @@
 
   <model>
     <name>Winglet2</name>
-    <path>Aircraft/737-800YV/Models/winglet2.xml</path>
+    <path>Aircraft/737-Next-Generation/Models/winglet2.xml</path>
     <offsets>
       <x-m>0.0</x-m>
       <y-m>0.0</y-m>
@@ -214,7 +214,7 @@
 <!-- Navigation Lights -->
 
 <model>
-  <path>Aircraft/737-800YV/Models/lights/greennav.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/greennav.xml</path>
   <name>Greenlight</name>     
   <offsets>
     <x-m>3.60</x-m>
@@ -223,7 +223,7 @@
   </offsets>
 </model>
 <model>
-  <path>Aircraft/737-800YV/Models/lights/ALS/green-navlight.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/ALS/green-navlight.xml</path>
   <name>Greenlight.ALS</name>     
   <offsets>
     <x-m>3.60</x-m>
@@ -233,7 +233,7 @@
 </model>
 
 <model>
-  <path>Aircraft/737-800YV/Models/lights/rednav.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/rednav.xml</path>
   <name>Redlight</name>     
   <offsets>
     <x-m>3.60</x-m>
@@ -242,7 +242,7 @@
   </offsets>
 </model>
 <model>
-  <path>Aircraft/737-800YV/Models/lights/ALS/red-navlight.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/ALS/red-navlight.xml</path>
   <name>Redlight.ALS</name>     
   <offsets>
     <x-m>3.60</x-m>
@@ -254,7 +254,7 @@
 <!-- Strobe -->
 
 <model>
-  <path>Aircraft/737-800YV/Models/lights/strobe.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/strobe.xml</path>
   <name>strobe.right</name>     
   <offsets>
     <x-m>3.64</x-m>
@@ -263,7 +263,7 @@
   </offsets>
 </model>
 <model>
-  <path>Aircraft/737-800YV/Models/lights/ALS/right-strobe.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/ALS/right-strobe.xml</path>
   <name>strobe.right.ALS</name>     
   <offsets>
     <x-m>3.64</x-m>
@@ -273,7 +273,7 @@
 </model>
 
 <model>
-  <path>Aircraft/737-800YV/Models/lights/strobe.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/strobe.xml</path>
   <name>strobe.left</name>     
   <offsets>
     <x-m>3.64</x-m>
@@ -282,7 +282,7 @@
   </offsets>
 </model>
 <model>
-  <path>Aircraft/737-800YV/Models/lights/ALS/left-strobe.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/ALS/left-strobe.xml</path>
   <name>strobe.left.ALS</name>     
   <offsets>
     <x-m>3.64</x-m>
@@ -292,7 +292,7 @@
 </model>
 
 <model> 
- <path>Aircraft/737-800YV/Models/lights/strobe.xml</path>
+ <path>Aircraft/737-Next-Generation/Models/lights/strobe.xml</path>
   <name>strobe.rear</name>     
  <offsets>
    <x-m>18.63</x-m>
@@ -301,7 +301,7 @@
  </offsets>
 </model>
 <model>
-  <path>Aircraft/737-800YV/Models/lights/ALS/tail-strobe.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/ALS/tail-strobe.xml</path>
   <name>strobe.rear.ALS</name>     
   <offsets>
    <x-m>18.63</x-m>
@@ -313,7 +313,7 @@
 <!--Landing Light-->
 
 <model>
-  <path>Aircraft/737-800YV/Models/lights/landing-stbd.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/landing-stbd.xml</path>
   <name>landing.LW</name>
 
   <offsets>
@@ -323,7 +323,7 @@
   </offsets>
 </model>
 <model>
-  <path>Aircraft/737-800YV/Models/lights/ALS/landinglightL.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/ALS/landinglightL.xml</path>
   <name>landing.LW.ALS</name>
 
   <offsets>
@@ -334,7 +334,7 @@
 </model>
 
 <model>
-  <path>Aircraft/737-800YV/Models/lights/landing-stbd.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/landing-stbd.xml</path>
   <name>landing.RW</name>
   <offsets>
     <x-m>-4.98</x-m>
@@ -343,7 +343,7 @@
   </offsets>
 </model>
 <model>
-  <path>Aircraft/737-800YV/Models/lights/ALS/landinglightR.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/ALS/landinglightR.xml</path>
   <name>landing.RW.ALS</name>
 
   <offsets>
@@ -356,7 +356,7 @@
 <!--Taxi Light-->
 
 <model>
-  <path>Aircraft/737-800YV/Models/lights/TaxiLight.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/TaxiLight.xml</path>
   <name>TaxiLight</name>
   <offsets>
     <x-m>-15.78</x-m>
@@ -365,7 +365,7 @@
   </offsets>
 </model>
 <model>
-  <path>Aircraft/737-800YV/Models/lights/ALS/taxilight.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/ALS/taxilight.xml</path>
   <name>TaxiLight.ALS</name>
   <offsets>
     <x-m>-15.78</x-m>
@@ -377,7 +377,7 @@
 <!--Retractable-landinglight -->
 
 <model>
-  <path>Aircraft/737-800YV/Models/lights/Retractable-landinglight.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/Retractable-landinglight.xml</path>
   <name>LeftRBlight</name>
 
   <offsets>
@@ -388,7 +388,7 @@
 </model>
 
 <model>
-  <path>Aircraft/737-800YV/Models/lights/Retractable-landinglight.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/Retractable-landinglight.xml</path>
   <name>RightWRBlight</name>
   <offsets>
     <x-m>-7.10</x-m>
@@ -400,7 +400,7 @@
 <!-- Beacon -->
 
 <model>
-  <path>Aircraft/737-800YV/Models/lights/beacon.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/beacon.xml</path>
   <name>beacon.top</name>     
   <offsets>
     <x-m>0.00</x-m>
@@ -409,7 +409,7 @@
   </offsets>
 </model>
 <model>
-  <path>Aircraft/737-800YV/Models/lights/ALS/beacon.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/ALS/beacon.xml</path>
   <name>beacon.top.ALS</name>     
   <offsets>
     <x-m>0.00</x-m>
@@ -419,7 +419,7 @@
 </model>
 
 <model>
-  <path>Aircraft/737-800YV/Models/lights/beacon.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/beacon.xml</path>
   <name>beacon.bottom</name>     
   <offsets>
     <x-m>0.0</x-m>
@@ -428,7 +428,7 @@
   </offsets>
 </model>   
 <model>
-  <path>Aircraft/737-800YV/Models/lights/ALS/beacon.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/lights/ALS/beacon.xml</path>
   <name>beacon.bottom.ALS</name>     
   <offsets>
     <x-m>0.0</x-m>
@@ -477,7 +477,7 @@
 <!-- Tyre Smoke -->
 
 <model>
-  <path>Aircraft/737-800YV/Models/Effects/tyre-smoke-nose.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/Effects/tyre-smoke-nose.xml</path>
   <name>tyre-smoke-n</name>
   <offsets>
     <x-m>-18.00</x-m>
@@ -487,7 +487,7 @@
 </model>
 
 <model>
-  <path>Aircraft/737-800YV/Models/Effects/tyre-smoke-left.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/Effects/tyre-smoke-left.xml</path>
   <name>tyre-smoke-l</name>
   <offsets>
     <x-m>-4.83</x-m>
@@ -497,7 +497,7 @@
 </model>
 
 <model>
-  <path>Aircraft/737-800YV/Models/Effects/tyre-smoke-right.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/Effects/tyre-smoke-right.xml</path>
   <name>tyre-smoke-r</name>
   <offsets>
     <x-m>-4.83</x-m>
@@ -509,7 +509,7 @@
 <!-- Tyre Rain -->
 
 <model>
-  <path>Aircraft/737-800YV/Models/Effects/tyrespray/rain-nose.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/Effects/tyrespray/rain-nose.xml</path>
   <name>tyre-smoke-n</name>
   <offsets>
     <x-m>-18.00</x-m>
@@ -519,7 +519,7 @@
 </model>
 
 <model>
-  <path>Aircraft/737-800YV/Models/Effects/tyrespray/rain-port.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/Effects/tyrespray/rain-port.xml</path>
   <name>tyre-smoke-l</name>
   <offsets>
     <x-m>-4.83</x-m>
@@ -529,7 +529,7 @@
 </model>
 
 <model>
-  <path>Aircraft/737-800YV/Models/Effects/tyrespray/rain-stbd.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/Effects/tyrespray/rain-stbd.xml</path>
   <name>tyre-smoke-r</name>
   <offsets>
     <x-m>-4.83</x-m>
@@ -541,7 +541,7 @@
 <!-- Engine Fire -->
 
 <model>
- <path>Aircraft/737-800YV/Models/Effects/fire.xml</path>
+ <path>Aircraft/737-Next-Generation/Models/Effects/fire.xml</path>
  <condition>
    <equals>
     <property>controls/fires/fire/phase</property>
@@ -558,7 +558,7 @@
 </model>
 
 <model>
- <path>Aircraft/737-800YV/Models/Effects/fire.xml</path>
+ <path>Aircraft/737-Next-Generation/Models/Effects/fire.xml</path>
  <condition>
    <equals>
     <property>controls/fires/fire[1]/phase</property>
@@ -577,7 +577,7 @@
 <!-- Contrail -->
 
 <model>
-  <path>Aircraft/737-800YV/Models/Effects/Contrail/contrail.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/Effects/Contrail/contrail.xml</path>
   <offsets>
     <x-m>3.3</x-m>
     <y-m>-4.7632</y-m>
@@ -589,7 +589,7 @@
 </model>
 
 <model>
-  <path>Aircraft/737-800YV/Models/Effects/Contrail/contrail.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/Effects/Contrail/contrail.xml</path>
   <offsets>
     <x-m>3.3</x-m>
     <y-m>4.7713</y-m>
@@ -604,7 +604,7 @@
 
 <model>
   <name>fuel-truck</name>
-  <path>Aircraft/737-800YV/Models/Services/Fuel-Truck/Fuel_Truck_Short_VolvoFM.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/Services/Fuel-Truck/Fuel_Truck_Short_VolvoFM.xml</path>
   <offsets>
     <x-m>1.8</x-m>
     <y-m>12</y-m>
@@ -628,7 +628,7 @@
 
 <model>
   <name>de-ice-truck</name>
-  <path>Aircraft/737-800YV/Models/Services/De-Icing/volvo_deicing_truck.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/Services/De-Icing/volvo_deicing_truck.xml</path>
   <condition>
     <and>   
       <equals>
@@ -653,7 +653,7 @@
 
 <model>
   <name>baggage-truck</name>
-  <path>Aircraft/737-800YV/Models/Services/Baggage/cargo_ramp.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/Services/Baggage/cargo_ramp.xml</path>
   <condition>
     <and>
       <equals>
@@ -678,7 +678,7 @@
 
 <model>
   <name>ext-pwr</name>
-  <path>Aircraft/737-800YV/Models/Services/External-Power/ext-pwr-box.ac</path>
+  <path>Aircraft/737-Next-Generation/Models/Services/External-Power/ext-pwr-box.ac</path>
   <condition>
     <and>
       <equals>
@@ -701,7 +701,7 @@
 
 <model>
  <name>Bus</name>
- <path>Aircraft/737-800YV/Models/Services/Bus/bus.xml</path>
+ <path>Aircraft/737-Next-Generation/Models/Services/Bus/bus.xml</path>
  <condition>
    <property>controls/switches/bus</property>
    <less-than>
@@ -735,7 +735,7 @@
 <!-- Services by Gabriel Hernandez(YV399) -->
 
 <model>
-  <path>Aircraft/737-800YV/Models/Services/Services.xml</path>
+  <path>Aircraft/737-Next-Generation/Models/Services/Services.xml</path>
   <offsets>
     <x-m>0</x-m>
     <y-m>0</y-m>
