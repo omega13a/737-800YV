@@ -4,8 +4,8 @@
 <sim>
     <model>
         <livery>                     
-            <name type="string">Janet (N319BD)</name>
-            <texture>Liveries-600/WWW-600.png</texture>            
+            <name type="string">Austrian Airlines</name>
+            <texture>/Liveries-600/AUA.png</texture>            
         </livery>        
     </model>
 </sim>
