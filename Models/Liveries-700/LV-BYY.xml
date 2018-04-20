@@ -4,7 +4,7 @@
 <sim>
     <model>
         <livery>                     
-            <name type="string">Aerolineas Argentinas</name>
+            <name type="string">Aerolineas Argentinas (New Livery)</name>
             <texture>Liveries-700/LV-BYY.png</texture>            
         </livery>        
     </model>
