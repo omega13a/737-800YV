@@ -65,7 +65,7 @@
     </offsets>
   </model> 
 
-  <model>
+  <model n="9999">
     <name>Winglet2</name>
     <path>Aircraft/737-Next-Generation/Models/winglet2.xml</path>
     <offsets>

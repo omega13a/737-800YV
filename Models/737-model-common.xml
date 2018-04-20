@@ -69,7 +69,7 @@
       <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  <model>
+  <model n="9999">
     <name>Winglet</name>
     <path>Models/winglet.xml</path>
     <offsets>
