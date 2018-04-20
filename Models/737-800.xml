@@ -23,16 +23,6 @@
       </not>
     </condition>
   </model>
-  <model>
-    <name>LeftWing</name>
-    <path>Aircraft/737-Next-Generation/Models/LWing.xml</path>
-    <offsets>
-      <x-m>0.0</x-m>
-      <y-m>0.0</y-m>
-      <z-m>0.0</z-m>
-      <pitch-deg>0</pitch-deg>
-    </offsets>
-  </model>
   <model n="102">
     <name>NoseGear</name>
     <path>Aircraft/737-Next-Generation/Models/NoseGear.xml</path>
@@ -44,16 +34,6 @@
     </offsets>
   </model>
 
-  <model>
-    <name>RightWing</name>
-    <path>Aircraft/737-Next-Generation/Models/RWing.xml</path>
-    <offsets>
-      <x-m>0.0</x-m>
-      <y-m>0.0</y-m>
-      <z-m>0.0</z-m>
-      <pitch-deg>0</pitch-deg>
-    </offsets>
-  </model>
   <model n="108">
     <name>VertStab</name>
     <path>Aircraft/737-Next-Generation/Models/VertStab.xml</path>
