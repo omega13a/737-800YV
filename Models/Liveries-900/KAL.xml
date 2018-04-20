@@ -5,7 +5,7 @@
     <model>
         <livery>                     
             <name type="string">Korean Air</name>
-            <texture>/Liveries-900/KAL-900.png</texture>            
+            <texture>/Liveries-900/KAL.png</texture>            
         </livery>        
     </model>
 </sim>

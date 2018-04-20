@@ -5,7 +5,7 @@
     <model>
         <livery>                     
             <name type="string">Lion Air</name>
-            <texture>Liveries/LNI-900.png</texture>            
+            <texture>Liveries/LNI.png</texture>            
         </livery>        
     </model>
 </sim>

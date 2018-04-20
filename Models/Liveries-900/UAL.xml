@@ -5,7 +5,7 @@
     <model>
         <livery>                     
             <name type="string">United/Continental Airlines</name>
-            <texture>Liveries-900/UAL-900.png</texture>            
+            <texture>Liveries-900/UAL.png</texture>            
         </livery>        
     </model>
 </sim>

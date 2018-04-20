@@ -5,7 +5,7 @@
     <model>
         <livery>                     
             <name type="string">UtaIr</name>
-            <texture>Liveries-900/UTA-900.png</texture>            
+            <texture>Liveries-900/UTA.png</texture>            
         </livery>        
     </model>
 </sim>

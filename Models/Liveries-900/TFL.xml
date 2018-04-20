@@ -5,7 +5,7 @@
     <model>
         <livery>                     
             <name type="string">Arkefly</name>
-            <texture>Liveries/TFL-900.png</texture>            
+            <texture>Liveries/TFL.png</texture>            
         </livery>        
     </model>
 </sim>
