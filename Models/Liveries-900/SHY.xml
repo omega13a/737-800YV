@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+            <name type="string">Sky Airlines</name>
+            <texture>Liveries-900/SHY.png</texture>
+        </livery>
+        <lights>
+            <texture>Liveries-900/SHY-lights.png</texture>
+        </lights>
+    </model>
+</sim>
+</PropertyList>

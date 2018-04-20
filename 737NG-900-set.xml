@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+
+<PropertyList include="737ng-common.xml">
+
+	<sim>
+		<description>Boeing 737-900</description>
+		<liveries-path type="string">Aircraft/737-Next-Generation/Models/Liveries-700</liveries-path>
+
+		<aero>737-900</aero>
+		<startup>
+                        <splash-texture>Aircraft/737-Next-Generation/Splash/splash-1.png</splash-texture>
+                        <splash-texture>Aircraft/737-Next-Generation/Splash/splash-2.png</splash-texture>
+                        <splash-texture>Aircraft/737-Next-Generation/Splash/splash-3.png</splash-texture>
+                        <splash-texture>Aircraft/737-Next-Generation/Splash/splash-4.png</splash-texture>
+                        <splash-texture>Aircraft/737-Next-Generation/Splash/splash-5.png</splash-texture>
+                        <splash-texture>Aircraft/737-Next-Generation/Splash/splash-6.png</splash-texture>
+                        <splash-texture>Aircraft/737-Next-Generation/Splash/splash-7.png</splash-texture>
+                        <splash-texture>Aircraft/737-Next-Generation/Splash/splash-8.png</splash-texture>
+                </startup>
+
+		<previews>
+			<preview>
+				<type>exterior</type>
+				<splash type="bool">true</splash>
+				<path>Splash/splash-1.png</path>
+			</preview>
+		</previews>
+
+		<liveries-path type="string">Models/Liveries-700</liveries-path>
+
+		 <model>
+			<path>Aircraft/737-Next-Generation/Models/737-900.xml</path>       
+			<livery>
+				<file>BOE</file>
+				<newwinglets type="bool">false</newwinglets>   
+			</livery>
+
+			<rendering>
+				<rain-enabled type="int">2</rain-enabled>
+				<reflection-enabled type="int">1</reflection-enabled>
+				<reflection-type type="int">1</reflection-type>
+				<reflection-dynamic type="int">1</reflection-dynamic>
+				<reflection-correction type="float">-0.8</reflection-correction>
+				<reflection-fresnel type="float">0.0</reflection-fresnel>
+				<reflection-fresnel-factor type="float">0.7</reflection-fresnel-factor>
+				<reflection-rainbow type="float">0.0</reflection-rainbow>
+				<reflection-noise type="float">0.00</reflection-noise>
+				<ambient-correction type="float">0.15</ambient-correction>
+			</rendering>
+		</model> 
+   
+		<rating>
+			<FDM type="int">3</FDM>
+			<systems type="int">3</systems>
+			<cockpit type="int">3</cockpit>
+			<model type="int">4</model>
+		</rating>
+
+		<view>
+			<type>lookfrom</type>
+			<internal archive="y">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+				<default-field-of-view-deg type="double">65</default-field-of-view-deg>
+				<pitch-offset-deg>-16</pitch-offset-deg>
+				<heading-offset-deg>0</heading-offset-deg>
+				<x-offset-m archive="y">-0.51</x-offset-m>
+				<y-offset-m archive="y">1.28</y-offset-m>
+				<z-offset-m archive="y">-16.98</z-offset-m>
+			</config>
+		</view>
+
+		<view n="0">
+      <internal archive="y">true</internal>
+      <config>
+        <!-- x/y/z == right/up/back --> 
+        <x-offset-m archive="y">-0.4</x-offset-m>
+        <y-offset-m archive="y">1.40</y-offset-m>
+        <z-offset-m archive="y">-18.2</z-offset-m>
+        <pitch-offset-deg archive="y">-8.0</pitch-offset-deg>
+      </config>
+    </view>
+
+		<view n="106">
+			<name>Copilot</name>
+			<type>lookfrom</type>
+			<internal archive="y">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+				<default-field-of-view-deg type="double">65</default-field-of-view-deg>
+				<pitch-offset-deg>-16</pitch-offset-deg>
+				<heading-offset-deg>0</heading-offset-deg>
+				<x-offset-m archive="y">0.51</x-offset-m>
+				<y-offset-m archive="y">1.28</y-offset-m>
+				<z-offset-m archive="y">-18.2</z-offset-m>
+			</config>   
+		</view>
+
+		<view n="100">
+			<name>CDU View</name>
+			<type>lookfrom</type>
+			<internal archive="y">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+				<default-field-of-view-deg type="double">41</default-field-of-view-deg>
+				<pitch-offset-deg>-70</pitch-offset-deg>
+				<heading-offset-deg>0</heading-offset-deg>
+				<x-offset-m archive="y">-0.15</x-offset-m>
+				<y-offset-m archive="y">1.3</y-offset-m>
+				<z-offset-m archive="y">-18.82</z-offset-m>
+			</config>
+		</view>	
+		<view n="101">
+			<name>Engine Left</name>
+			<type>lookfrom</type>
+			<internal archive="y">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+				<default-field-of-view-deg type="double">62</default-field-of-view-deg>
+				<pitch-offset-deg>0</pitch-offset-deg>
+				<heading-offset-deg>130</heading-offset-deg>
+				<x-offset-m archive="y">-1.83</x-offset-m>
+				<y-offset-m archive="y">1.2</y-offset-m>
+				<z-offset-m archive="y">-9.02</z-offset-m>
+			</config>   
+		</view>
+		<view n="102">
+			<name>Engine Right</name>
+			<type>lookfrom</type>
+			<internal archive="y">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+				<default-field-of-view-deg type="double">62</default-field-of-view-deg>
+				<pitch-offset-deg>0</pitch-offset-deg>
+				<heading-offset-deg>-130</heading-offset-deg>
+				<x-offset-m archive="y">1.83</x-offset-m>
+				<y-offset-m archive="y">1.2</y-offset-m>
+				<z-offset-m archive="y">-9.02</z-offset-m>
+			</config>   
+		</view>
+		<view n="103">
+			<name>Right Wing</name>
+			<type>lookfrom</type>
+			<internal archive="y">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+				<default-field-of-view-deg type="double">80</default-field-of-view-deg>
+				<pitch-offset-deg>0</pitch-offset-deg>
+				<heading-offset-deg>-90</heading-offset-deg>
+				<x-offset-m archive="y">1.80</x-offset-m>
+				<y-offset-m archive="y">0.91</y-offset-m>
+				<z-offset-m archive="y">2.19</z-offset-m>
+			</config>
+		</view>
+		<view n="104">
+			<name>Left Wing</name>
+			<type>lookfrom</type>
+			<internal archive="y">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+				<default-field-of-view-deg type="double">80</default-field-of-view-deg>
+				<pitch-offset-deg>0</pitch-offset-deg>
+				<heading-offset-deg>90</heading-offset-deg>
+				<x-offset-m archive="y">-1.80</x-offset-m>
+				<y-offset-m archive="y">0.91</y-offset-m>
+				<z-offset-m archive="y">2.19</z-offset-m>
+			</config>
+		</view>
+		<view n="105">
+			<name>Overhead Panel</name>
+			<type>lookfrom</type>
+			<internal archive="y">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+				<default-field-of-view-deg type="double">108</default-field-of-view-deg>
+				<pitch-offset-deg>50</pitch-offset-deg>
+				<heading-offset-deg>0</heading-offset-deg>
+				<x-offset-m archive="y">0</x-offset-m>
+				<y-offset-m archive="y">1.26</y-offset-m>
+				<z-offset-m archive="y">-18.48</z-offset-m>
+			</config>
+		</view>
+	</sim>
+
+	<limits> <!-- based on EI-RUA aircraft data -->
+		<mass-and-balance>
+			<maximum-ramp-mass-lbs>173000</maximum-ramp-mass-lbs>
+			<maximum-takeoff-mass-lbs>172500</maximum-takeoff-mass-lbs>
+			<maximum-landing-mass-lbs>144076</maximum-landing-mass-lbs>
+			<maximum-zero-fuel-mass-lbs>136000</maximum-zero-fuel-mass-lbs>
+		</mass-and-balance>
+		<max-flap-extension-speed>
+			<flaps>0.125</flaps>
+			<speed>250</speed>
+		</max-flap-extension-speed>
+		<max-flap-extension-speed>
+			<flaps>0.250</flaps>
+			<speed>250</speed>
+		</max-flap-extension-speed>
+		<max-flap-extension-speed>
+			<flaps>0.375</flaps>
+			<speed>250</speed>
+		</max-flap-extension-speed>
+		<max-flap-extension-speed>
+			<flaps>0.500</flaps>
+			<speed>210</speed>
+		</max-flap-extension-speed>
+		<max-flap-extension-speed>
+			<flaps>0.625</flaps>
+			<speed>200</speed>
+		</max-flap-extension-speed>
+		<max-flap-extension-speed>
+			<flaps>0.750</flaps>
+			<speed>190</speed>
+		</max-flap-extension-speed>
+		<max-flap-extension-speed>
+			<flaps>0.875</flaps>
+			<speed>175</speed>
+		</max-flap-extension-speed>
+		<max-flap-extension-speed>
+			<flaps>1.000</flaps>
+			<speed>158</speed>
+		</max-flap-extension-speed>
+		<max-gear-extension-speed>270</max-gear-extension-speed>
+		<max-gear-retraction-speed>235</max-gear-retraction-speed>
+		<vne>340</vne>
+		<max-positive-g>2.5</max-positive-g> 
+	</limits>
+
+	<payload>
+
+		<pax>
+			<business type="double">6</business>
+			<tourist type="double">22</tourist>
+			<economy type="double">50</economy>
+		</pax>
+		<weight>
+			<name type="string">Business class (8 pax max)</name>
+			<weight-lb alias="/payload/pax/business"/>
+			<min-lb type="double">0.0</min-lb>
+			<max-lb type="double">8</max-lb>
+		</weight>
+		<weight>
+			<name type="string">Tourist class (54 pax max)</name>
+			<weight-lb alias="/payload/pax/tourist"/>
+			<min-lb type="double">0.0</min-lb>
+			<max-lb type="double">54</max-lb>
+		</weight>
+		<weight>
+			<name type="string">Economy class (96 pax max)</name>
+			<weight-lb alias="/payload/pax/economy"/>
+			<min-lb type="double">0.0</min-lb>
+			<max-lb type="double">96</max-lb>
+		</weight>
+		<weight>
+			<name type="string">Cargo compartment 1A</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[3]"/>
+			<min-lb type="double">0.0</min-lb>
+			<max-lb type="double">1218</max-lb>
+		</weight>
+		<weight>
+			<name type="string">Cargo compartment 1B</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[4]"/>
+			<min-lb type="double">0.0</min-lb>
+			<max-lb type="double">741</max-lb>
+		</weight>
+		<weight>
+			<name type="string">Cargo compartment 2</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[5]"/>
+			<min-lb type="double">0.0</min-lb>
+			<max-lb type="double">5887</max-lb>
+		</weight>
+		<weight>
+			<name type="string">Cargo compartment 3</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[6]"/>
+			<min-lb type="double">0.0</min-lb>
+			<max-lb type="double">9008</max-lb>
+		</weight>
+		<weight>
+			<name type="string">Cargo compartment 4A</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[7]"/>
+			<min-lb type="double">0.0</min-lb>
+			<max-lb type="double">798</max-lb>
+		</weight>
+		<weight>
+			<name type="string">Cargo compartment 4B</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[8]"/>
+			<min-lb type="double">0.0</min-lb>
+			<max-lb type="double">886</max-lb>
+		</weight>
+
+	</payload>
+
+	<nasal>
+		<cdu>
+			<file>Aircraft/737-Next-Generation/Models/Instruments/CDU/boeing.nas</file> <!-- custom implementation of the CDU from instruments-3D -->
+		</cdu>
+		<boeing737>
+			<file>Aircraft/737-Next-Generation/Models/Instruments/PFD/PFD.nas</file>
+			<file>Aircraft/737-Next-Generation/Models/Instruments/EICAS/upperEICAS.nas</file>
+			<file>Aircraft/737-Next-Generation/Models/Instruments/EICAS_Lower/lowerEICAS.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/air-ground.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/autostart.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/controls.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/friction.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/lighting.nas</file>     
+			<file>Aircraft/737-Next-Generation/Nasal/tire-smoke.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/ground-services.nas</file>  
+			<file>Aircraft/737-Next-Generation/Nasal/liveries-700.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/systems.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/engine-fire.nas</file> 
+			<file>Aircraft/737-Next-Generation/Nasal/limits.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/doors.nas</file> 
+		</boeing737>
+		<systems>
+			<file>Aircraft/737-Next-Generation/Nasal/electrical.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/hydraulics.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/engines.nas</file>
+		</systems>
+		<nd>
+			<file>Aircraft/737-Next-Generation/Nasal/ND.nas</file>
+		</nd>
+		<reversethrust>
+			<file>Aircraft/737-Next-Generation/Nasal/reverse-thrust.nas</file>
+		</reversethrust>
+		<itaf>
+			<file>Aircraft/737-Next-Generation/Nasal/AFDS738.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/AFDS738-b.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/AFDS738-c.nas</file>
+		</itaf>
+		<it-cws>
+			<file>Aircraft/737-Next-Generation/Nasal/it-cws.nas</file>
+		</it-cws>
+		<thrust>
+			<file>Aircraft/737-Next-Generation/Nasal/fadec.nas</file>
+		</thrust>
+		<acconfig>
+			<file>Aircraft/737-Next-Generation/AircraftConfig/acconfig.nas</file>
+		</acconfig>
+		<icing>
+			<file>Aircraft/737-Next-Generation/Nasal/icing.nas</file>
+		</icing>
+	</nasal>
+</PropertyList>
