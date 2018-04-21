@@ -2,6 +2,8 @@
 <PropertyList include="737-model-common.xml">
   <path>737-600.ac</path>
   <animation n="0">
+    <object-name>EexitLH</object-name>
+    <object-name>EexitRH</object-name>
     <texture>737-600.png</texture>
   </animation>
   <model n="100">
