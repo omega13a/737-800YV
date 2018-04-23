@@ -79,6 +79,40 @@
       <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
+  <animation>
+    <type>material</type>
+    <object-name>lhwinglet.002</object-name>
+    <object-name>rhwinglet.002</object-name>
+    <property-base>sim/model/livery</property-base>
+    <texture-prop>texture</texture-prop>
+    <texture>737-800.png</texture>
+  </animation>
+  <!-- split scmictar select whenever the livery has value '1' for newwinglets -->
+  <animation>
+    <type>select</type>
+    <object-name>lhwinglet.001</object-name>
+    <object-name>rhwinglet.001</object-name>
+    <condition>
+      <equals>
+        <property>sim/model/livery/newwinglets</property>
+        <value>1</value>
+      </equals>
+    </condition>
+  </animation>
+  <animation>
+    <type>material</type>
+    <object-name>lhwinglet.001</object-name>
+    <object-name>rhwinglet.001</object-name>
+    <property-base>sim/model/livery</property-base>
+    <texture-prop>texture</texture-prop>
+    <texture>737-800.png</texture>  
+    <condition>
+      <equals>
+        <property>sim/model/livery/newwinglets</property>
+        <value>1</value>
+      </equals>
+    </condition>
+  </animation>
   <model>
     <name>RightWing</name>
     <path>Models/RWing.xml</path>
