@@ -5,7 +5,9 @@
     <model>
         <livery>                     
             <name type="string">SouthWest Airlines</name>
-            <texture>/Liveries-700/SWA.png</texture>            
+            <texture>/Liveries-700/SWA.png</texture>
+            <newwinglets type="bool">false</newwinglets>    
+            <nowinglets type="bool">false</nowinglets>            
         </livery>        
     </model>
 </sim>

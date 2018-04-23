@@ -5,7 +5,9 @@
     <model>
         <livery>                     
             <name type="string">United Eco-skies</name>
-            <texture>Liveries-900/UAL-eco.png</texture>            
+            <texture>Liveries-900/UAL-eco.png</texture>
+            <newwinglets type="bool">false</newwinglets>    
+            <nowinglets type="bool">false</nowinglets>            
         </livery>        
     </model>
 </sim>

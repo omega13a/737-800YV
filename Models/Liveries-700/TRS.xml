@@ -5,7 +5,9 @@
     <model>
         <livery>                     
             <name type="string">AirTran Airways</name>
-            <texture>Liveries-700/TRS.png</texture>            
+            <texture>Liveries-700/TRS.png</texture>
+            <newwinglets type="bool">false</newwinglets>    
+            <nowinglets type="bool">false</nowinglets>            
         </livery>        
     </model>
 </sim>

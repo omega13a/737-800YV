@@ -5,7 +5,9 @@
     <model>
         <livery>                     
             <name type="string">Aires Colombia</name>
-            <texture>/Liveries-700/HK-4641.png</texture>            
+            <texture>/Liveries-700/HK-4641.png</texture>
+            <newwinglets type="bool">false</newwinglets>    
+            <nowinglets type="bool">false</nowinglets>            
         </livery>        
     </model>
 </sim>

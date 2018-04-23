@@ -5,7 +5,9 @@
     <model>
         <livery>                     
             <name type="string">Aloha Airlines</name>
-            <texture>Liveries-700/AAH.png</texture>            
+            <texture>Liveries-700/AAH.png</texture>
+            <newwinglets type="bool">false</newwinglets>    
+            <nowinglets type="bool">false</nowinglets>
         </livery>        
     </model>
 </sim>

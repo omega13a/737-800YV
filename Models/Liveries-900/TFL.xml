@@ -5,7 +5,9 @@
     <model>
         <livery>                     
             <name type="string">Arkefly</name>
-            <texture>Liveries/TFL.png</texture>            
+            <texture>Liveries/TFL.png</texture>
+            <newwinglets type="bool">false</newwinglets>    
+            <nowinglets type="bool">false</nowinglets>            
         </livery>        
     </model>
 </sim>

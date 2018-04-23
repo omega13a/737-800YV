@@ -5,7 +5,9 @@
     <model>
         <livery>                     
             <name type="string">UtaIr</name>
-            <texture>Liveries-900/UTA.png</texture>            
+            <texture>Liveries-900/UTA.png</texture>
+            <newwinglets type="bool">false</newwinglets>    
+            <nowinglets type="bool">false</nowinglets>            
         </livery>        
     </model>
 </sim>

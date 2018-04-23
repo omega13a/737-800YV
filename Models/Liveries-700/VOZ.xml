@@ -5,7 +5,9 @@
     <model>
         <livery>                     
             <name type="string">Virgin Blue</name>
-            <texture>Liveries-700/VOZ.png</texture>            
+            <texture>Liveries-700/VOZ.png</texture>
+            <newwinglets type="bool">false</newwinglets>    
+            <nowinglets type="bool">false</nowinglets>            
         </livery>        
     </model>
 </sim>

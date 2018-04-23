@@ -5,7 +5,9 @@
     <model>
         <livery>                     
             <name type="string">Royal Australian Air Force</name>
-            <texture>Liveries-700/RAAF.png</texture>            
+            <texture>Liveries-700/RAAF.png</texture>
+            <newwinglets type="bool">false</newwinglets>    
+            <nowinglets type="bool">false</nowinglets>            
         </livery>        
     </model>
 </sim>

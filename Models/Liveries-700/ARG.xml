@@ -5,7 +5,9 @@
     <model>
         <livery>                     
             <name type="string">Aerolineas Argentinas</name>
-            <texture>Liveries-700/ARG.png</texture>            
+            <texture>Liveries-700/ARG.png</texture>
+            <newwinglets type="bool">false</newwinglets>    
+            <nowinglets type="bool">false</nowinglets>            
         </livery>        
     </model>
 </sim>

@@ -5,7 +5,8 @@
     <model>
         <livery>                     
             <name type="string">Westjet</name>
-            <texture>/Liveries-600/WJA.png</texture>    
+            <texture>/Liveries-600/WJA.png</texture>
+            <newwinglets type="bool">false</newwinglets>    
             <nowinglets type="bool">true</nowinglets>              
         </livery>        
     </model>

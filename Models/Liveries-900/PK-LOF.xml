@@ -5,7 +5,9 @@
     <model>
         <livery>                     
             <name type="string">Lion Air (100th 737NG)</name>
-            <texture>Liveries-900/PK-LOF.png</texture>            
+            <texture>Liveries-900/PK-LOF.png</texture>
+            <newwinglets type="bool">false</newwinglets>    
+            <nowinglets type="bool">false</nowinglets>            
         </livery>        
     </model>
 </sim>
