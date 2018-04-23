@@ -71,7 +71,7 @@
   </model>
   <model>
     <name>Winglet</name>
-    <path>Models/winglet.xml</path>
+    <path>Models/winglet2.xml</path>
     <offsets>
       <x-m>0.0</x-m>
       <y-m>0.0</y-m>
