@@ -5,7 +5,8 @@
     <model>
         <livery>                     
             <name type="string">Janet (N319BD)</name>
-            <texture>Liveries-600/WWW.png</texture>            
+            <texture>Liveries-600/WWW.png</texture>    
+            <nowinglets type="bool">true</nowinglets>              
         </livery>        
     </model>
 </sim>

@@ -33,6 +33,7 @@
 			<livery>
 				<file>BOE</file>
 				<newwinglets type="bool">false</newwinglets>   
+				<nowinglets type="bool">false</nowinglets> 
 			</livery>
 
 			<rendering>

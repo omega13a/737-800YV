@@ -78,6 +78,12 @@
       <z-m>0.0</z-m>
       <pitch-deg>0</pitch-deg>
     </offsets>
+    <condition>
+      <equals>
+        <property>sim/model/livery/nowinglets</property>
+        <value>0</value>
+      </equals>
+    </condition>
   </model>
   <animation>
     <type>material</type>
@@ -85,7 +91,6 @@
     <object-name>rhwinglet.002</object-name>
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
-    <texture>737-800.png</texture>
   </animation>
   <!-- split scmictar select whenever the livery has value '1' for newwinglets -->
   <animation>
@@ -105,7 +110,6 @@
     <object-name>rhwinglet.001</object-name>
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
-    <texture>737-800.png</texture>  
     <condition>
       <equals>
         <property>sim/model/livery/newwinglets</property>

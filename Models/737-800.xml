@@ -161,7 +161,6 @@
       <z-m>-2.75</z-m>
     </offsets>
   </model> 
-
   <model>
     <name>Winglet2</name>
     <path>Aircraft/737-Next-Generation/Models/winglet2.xml</path>
@@ -180,6 +179,12 @@
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
     <texture>737-800.png</texture>
+    <condition>
+      <equals>
+        <property>sim/model/livery/nowinglets</property>
+        <value>0</value>
+      </equals>
+    </condition>
   </animation>
 
   <!-- split scmictar select whenever the livery has value '1' for newwinglets -->
