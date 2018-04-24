@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<system name="Thrust Reverse">
+  <channel name="Thrust Reverse">
+    <pure_gain name="Thrust Reverse Position">
+      <input>systems/reverser/command</input>
+      <gain>2.0</gain>
+      <output>systems/reverser/reverser-pos-norm</output>
+    </pure_gain>
+
+    <kinematic name="Thrust Reverse Control Engine 0">
+      <input>systems/reverser/reverser-pos-norm</input>
+      <traverse>
+        <setting>
+          <position>0</position>
+          <time>0</time>
+        </setting>
+        <setting>
+          <position>2.0</position>
+          <time>1.0</time>
+        </setting>
+      </traverse>
+      <output>propulsion/engine[0]/reverser-angle-rad</output>
+    </kinematic>
+
+    <kinematic name="Thrust Reverse Control Engine 1">
+      <input>systems/reverser/reverser-pos-norm</input>
+      <traverse>
+        <setting>
+          <position>0</position>
+          <time>0</time>
+        </setting>
+        <setting>
+          <position>2.0</position>
+          <time>1.0</time>
+        </setting>
+      </traverse>
+      <output>propulsion/engine[1]/reverser-angle-rad</output>
+    </kinematic>
+  </channel>
+
+</system>
