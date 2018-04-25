@@ -18,7 +18,7 @@
     name:          737-900
     type:          Multi-engine Passenger Jet Airliner, Transonic Jet Transport
     stall speed:   unspecified
-    max weight:    174199.41 lb
+    max weight:    187731.48 lb
     length:        138.12 ft
     wing: 
      span:         112.60 ft
@@ -41,9 +41,9 @@
     retractable?:  yes
 
   Outputs:
-    wing loading:       129.91 lb/sq-ft
+    wing loading:       140.00 lb/sq-ft
      - thickness ratio: 15.00%
-    payload:            32249.11 lbs
+    payload:            37217.08 lbs
     CL-alpha:           5.38 per radian
     CL-0:               0.20
     CL-max:             1.20
@@ -61,11 +61,11 @@
    <wing_incidence unit="DEG"> 2.00 </wing_incidence>
    <chord     unit="FT" >    11.92 </chord>
    <htailarea unit="FT2">   352.84 </htailarea>
-   <htailarm  unit="FT" >    62.16 </htailarm>
+   <htailarm  unit="FT" >    62.33 </htailarm>
    <vtailarea  unit="FT2">  268.19 </vtailarea>
-   <vtailarm  unit="FT" >    62.16 </vtailarm>
+   <vtailarm  unit="FT" >    57.83 </vtailarm>
    <location name="AERORP" unit="IN">
-     <x>   911.61 </x>
+     <x>   909.58 </x>
      <y>     0.00 </y>
      <z>     0.00 </z>
    </location>
@@ -82,20 +82,20 @@
  </metrics>
 
  <mass_balance>
-   <ixx unit="SLUG*FT2">  576440.88 </ixx>
-   <iyy unit="SLUG*FT2">  2004063.62 </iyy>
-   <izz unit="SLUG*FT2">  2419078.00 </izz>
-   <emptywt unit="LBS" >  93697.06 </emptywt>
+   <ixx unit="SLUG*FT2">  606068.00 </ixx>
+   <iyy unit="SLUG*FT2">  2107065.75 </iyy>
+   <izz unit="SLUG*FT2">  2543410.50 </izz>
+   <emptywt unit="LBS" >  98512.78 </emptywt>
    <location name="CG" unit="IN">
-     <x>   911.61 </x>
+     <x>   909.58 </x>
      <y>     0.00 </y>
      <z>   -41.44 </z>
    </location>
    <pointmass name="Payload">
-    <description> 32249.11 LBS should bring model up to entered max weight </description>
-    <weight unit="LBS"> 16124.55 </weight>
+    <description> 37217.08 LBS should bring model up to entered max weight </description>
+    <weight unit="LBS"> 18608.54 </weight>
     <location name="POINTMASS" unit="IN">
-     <x>   911.61 </x>
+     <x>   909.58 </x>
      <y>     0.00 </y>
      <z>   -41.44 </z>
    </location>
@@ -106,89 +106,120 @@
 
    <engine file="CFM56-7-7B26">
     <location unit="IN">
-      <x>   911.61 </x>
-      <y>  -225.20 </y>
-      <z>   -40.00 </z>
-    </location>
-    <orient unit="DEG">
-      <pitch>     0.00 </pitch>
-       <roll>     0.00 </roll>
-        <yaw>     0.00 </yaw>
-    </orient>
-    <feed> 0 </feed>
-
-    <thruster file="direct">
-     <sense> 1 </sense>
-     <location unit="IN">
-       <x>   911.61 </x>
-       <y>  -225.20 </y>
-       <z>   -40.00 </z>
-     </location>
-     <orient unit="DEG">
-       <pitch>     0.00 </pitch>
-        <roll>     0.00 </roll>
-         <yaw>     0.00 </yaw>
-     </orient>
-    </thruster>
+				<x>  715.6 </x> <!-- value from simulator data -->
+				<y> -193.68 </y> <!-- value from simulator data -->
+				<z>  -52.38 </z> <!-- BWL 155.72 -->
+			</location>
+			<orient unit="DEG">
+				<roll>  0 </roll>
+				<pitch> 0 </pitch>
+				<yaw>   1 </yaw>
+			</orient>
+			<feed>3</feed>
+			<thruster file="direct">
+				<location unit="IN">
+					<x>  715.6 </x> <!-- value from simulator data -->
+					<y> -193.68 </y> <!-- value from simulator data -->
+					<z>  -52.38 </z> <!-- BWL 155.72 -->
+				</location>
+				<orient unit="DEG">
+					<roll>  0 </roll>
+					<pitch> 0 </pitch>
+					<yaw>   1 </yaw>
+				</orient>
+			</thruster>
   </engine>
 
    <engine file="CFM56-7-7B26">
     <location unit="IN">
-      <x>   911.61 </x>
-      <y>   225.20 </y>
-      <z>   -40.00 </z>
-    </location>
-    <orient unit="DEG">
-      <pitch>     0.00 </pitch>
-       <roll>     0.00 </roll>
-        <yaw>     0.00 </yaw>
-    </orient>
-    <feed> 1 </feed>
-
-    <thruster file="direct">
-     <sense> 1 </sense>
-     <location unit="IN">
-       <x>   911.61 </x>
-       <y>   225.20 </y>
-       <z>   -40.00 </z>
-     </location>
-     <orient unit="DEG">
-       <pitch>     0.00 </pitch>
-        <roll>     0.00 </roll>
-         <yaw>     0.00 </yaw>
-     </orient>
-    </thruster>
+				<x> 715.6 </x> <!-- value from simulator data -->
+				<y> 193.68 </y> <!-- value from simulator data -->
+				<z>  -52.38 </z> <!-- BWL 155.72 -->
+			</location>
+			<orient unit="DEG">
+				<roll>  0 </roll>
+				<pitch> 0 </pitch>
+				<yaw>  -1 </yaw>
+			</orient>
+			<feed>4</feed>
+			<thruster file="direct">
+				<location unit="IN">
+					<x> 715.6 </x> <!-- value from simulator data -->
+					<y> 193.68 </y> <!-- value from simulator data -->
+					<z>  -52.38 </z> <!-- BWL 155.72 -->
+				</location>
+				<orient unit="DEG">
+					<roll>  0 </roll>
+					<pitch> 0 </pitch>
+					<yaw>   -1 </yaw>
+				</orient>
+			</thruster>
   </engine>
 
-  <tank type="FUEL" number="0">
-     <location unit="IN">
-       <x>   911.61 </x>
-       <y>     0.00 </y>
-       <z>   -41.44 </z>
-     </location>
-     <capacity unit="LBS"> 16084.41 </capacity>
-     <contents unit="LBS"> 8042.21 </contents>
-  </tank>
-  <tank type="FUEL" number="1">
-     <location unit="IN">
-       <x>   911.61 </x>
-       <y>     0.00 </y>
-       <z>   -41.44 </z>
-     </location>
-     <capacity unit="LBS"> 16084.41 </capacity>
-     <contents unit="LBS"> 8042.21 </contents>
-  </tank>
-  <tank type="FUEL" number="2">
-     <location unit="IN">
-       <x>   911.61 </x>
-       <y>     0.00 </y>
-       <z>   -41.44 </z>
-     </location>
-     <capacity unit="LBS"> 16084.41 </capacity>
-     <contents unit="LBS"> 8042.21 </contents>
-  </tank>
-
- </propulsion>
+  <tank type="FUEL"><!-- Left wing tank -->
+			<location unit="IN">
+				<x> 767.01 </x> <!-- based on trimsheet calculation. Correct value -->
+				<y> -350 </y>
+				<z> 26.58 </z>
+			</location>
+			<drain_location unit="IN">
+				<x> 703.09</x> <!-- based on trimsheet calculation. Correct value -->
+				<y> -200 </y>
+				<z> 10.91 </z>
+			</drain_location>
+			<capacity unit="LBS"> 8630 </capacity>
+			<contents unit="LBS"> 8630 </contents>
+			<temperature> 59.0 </temperature> <!-- Fuel temp in degrees F -->
+		</tank>
+		<tank type="FUEL"><!-- Right wing tank -->
+			<location unit="IN">
+				<x> 767.01 </x> <!-- based on trimsheet calculation. Correct value -->
+				<y> 350 </y>
+				<z> 26.58 </z>
+			</location>
+			<drain_location unit="IN">
+				<x> 703.09</x> <!-- based on trimsheet calculation. Correct value -->
+				<y> 200 </y>
+				<z> 10.91 </z>
+			</drain_location>
+			<capacity unit="LBS"> 8630 </capacity>
+			<contents unit="LBS"> 8630 </contents>
+			<temperature> 59.0 </temperature> <!-- Fuel temp in degrees F -->
+		</tank>
+		<tank type="FUEL"><!-- Center tank -->
+			<location unit="IN">
+				<x> 675.41 </x> <!-- based on trimsheet calculation. Correct value -->
+				<y>   0 </y>
+				<z> -19.54 </z>
+			</location>
+			<drain_location unit="IN">
+				<x> 675.46 </x> <!-- based on trimsheet calculation. Correct value -->
+				<y> 0 </y>
+				<z> -97.4 </z>
+			</drain_location>
+			<capacity unit="LBS"> 28803 </capacity>
+			<contents unit="LBS">  9000 </contents>
+			<temperature> 59.0 </temperature> <!-- Fuel temp in degrees F -->
+		</tank>
+		<tank type="FUEL"><!-- Feed pipe for left engine -->
+			<location unit="IN">
+				<x> 700 </x>
+				<y>-193 </y>
+				<z> -40 </z>
+			</location>
+			<capacity unit="LBS"> 0.5 </capacity>
+			<contents unit="LBS"> 0.25 </contents>
+		</tank>
+		<tank type="FUEL"><!-- Feed pipe for right engine -->
+			<location unit="IN">
+				<x> 700 </x>
+				<y> 193 </y>
+				<z> -40 </z>
+			</location>
+			<capacity unit="LBS"> 0.5 </capacity>
+			<contents unit="LBS"> 0.25 </contents>
+		</tank>
+	</propulsion>
 
  <ground_reactions>
 
@@ -201,8 +232,8 @@
     <static_friction>  0.80 </static_friction>
     <dynamic_friction> 0.50 </dynamic_friction>
     <rolling_friction> 0.02 </rolling_friction>
-    <spring_coeff  unit="LBS/FT">     52259.82 </spring_coeff>
-    <damping_coeff unit="LBS/FT/SEC"> 26129.91 </damping_coeff>
+    <spring_coeff  unit="LBS/FT">     56319.45 </spring_coeff>
+    <damping_coeff unit="LBS/FT/SEC"> 28159.72 </damping_coeff>
     <max_steer unit="DEG"> 5.00 </max_steer>
     <brake_group> NONE </brake_group>
     <retractable> 1 </retractable>
@@ -210,15 +241,15 @@
 
   <contact type="BOGEY" name="LEFT_MAIN">
     <location unit="IN">
-      <x>   948.08 </x>
+      <x>   945.96 </x>
       <y>  -121.61 </y>
       <z>  -198.90 </z>
     </location>
     <static_friction>  0.80 </static_friction>
     <dynamic_friction> 0.50 </dynamic_friction>
     <rolling_friction> 0.02 </rolling_friction>
-    <spring_coeff  unit="LBS/FT">     174199.41 </spring_coeff>
-    <damping_coeff unit="LBS/FT/SEC"> 87099.70 </damping_coeff>
+    <spring_coeff  unit="LBS/FT">     187731.48 </spring_coeff>
+    <damping_coeff unit="LBS/FT/SEC"> 93865.74 </damping_coeff>
     <max_steer unit="DEG">0</max_steer>
     <brake_group> LEFT </brake_group>
     <retractable> 1 </retractable>
@@ -226,15 +257,15 @@
 
   <contact type="BOGEY" name="RIGHT_MAIN">
     <location unit="IN">
-      <x>   948.08 </x>
+      <x>   945.96 </x>
       <y>   121.61 </y>
       <z>  -198.90 </z>
     </location>
     <static_friction>  0.80 </static_friction>
     <dynamic_friction> 0.50 </dynamic_friction>
     <rolling_friction> 0.02 </rolling_friction>
-    <spring_coeff  unit="LBS/FT">     174199.41 </spring_coeff>
-    <damping_coeff unit="LBS/FT/SEC"> 87099.70 </damping_coeff>
+    <spring_coeff  unit="LBS/FT">     187731.48 </spring_coeff>
+    <damping_coeff unit="LBS/FT/SEC"> 93865.74 </damping_coeff>
     <max_steer unit="DEG">0</max_steer>
     <brake_group> RIGHT </brake_group>
     <retractable> 1 </retractable>
@@ -242,26 +273,26 @@
 
   <contact type="STRUCTURE" name="LEFT_WING">
     <location unit="IN">
-     <x>   911.61 </x>
+     <x>   909.58 </x>
      <y>  -675.59 </y>
      <z>   -41.44 </z>
     </location>
    <static_friction>  1 </static_friction>
    <dynamic_friction> 1 </dynamic_friction>
-   <spring_coeff unit="LBS/FT">      174199.41 </spring_coeff>
-   <damping_coeff unit="LBS/FT/SEC"> 174199.41 </damping_coeff>
+   <spring_coeff unit="LBS/FT">      187731.48 </spring_coeff>
+   <damping_coeff unit="LBS/FT/SEC"> 187731.48 </damping_coeff>
   </contact>
 
   <contact type="STRUCTURE" name="RIGHT_WING">
     <location unit="IN">
-     <x>   911.61 </x>
+     <x>   909.58 </x>
      <y>   675.59 </y>
      <z>   -41.44 </z>
     </location>
    <static_friction>  1 </static_friction>
    <dynamic_friction> 1 </dynamic_friction>
-   <spring_coeff unit="LBS/FT">      174199.41 </spring_coeff>
-   <damping_coeff unit="LBS/FT/SEC"> 174199.41 </damping_coeff>
+   <spring_coeff unit="LBS/FT">      187731.48 </spring_coeff>
+   <damping_coeff unit="LBS/FT/SEC"> 187731.48 </damping_coeff>
   </contact>
 
  </ground_reactions>
@@ -316,7 +347,7 @@
           <property>metrics/Sw-sqft</property>
           <property>velocities/q-aero-rad_sec</property>
           <property>aero/ci2vel</property>
-          <value> 11.3185 </value>
+          <value> 11.3493 </value>
         </product>
       </function>
 
@@ -327,7 +358,7 @@
            <property>metrics/Sw-sqft</property>
            <property>aero/alphadot-rad_sec</property>
            <property>aero/ci2vel</property>
-           <value> 3.9541 </value>
+           <value> 3.9648 </value>
         </product>
       </function>
 
@@ -523,7 +554,7 @@
            <property>metrics/Sw-sqft</property>
            <property>aero/bi2vel</property>
            <property>velocities/r-aero-rad_sec</property>
-           <value> 1.0391 </value>
+           <value> 0.9668 </value>
        </product>
     </function>
 
@@ -605,7 +636,7 @@
            <property>metrics/bw-ft</property>
            <property>aero/beta-rad</property>
            <property>fcs/gear-no-wow</property>
-           <value> -0.102339 </value>
+           <value> -0.103528 </value>
        </product>
     </function>
 
@@ -629,7 +660,7 @@
            <property>metrics/bw-ft</property>
            <property>aero/bi2vel</property>
            <property>velocities/r-aero-rad_sec</property>
-           <value> -0.006197 </value>
+           <value> -0.005556 </value>
        </product>
     </function>
 
@@ -691,7 +722,7 @@
            <property>metrics/Sw-sqft</property>
            <property>metrics/bw-ft</property>
            <property>aero/beta-rad</property>
-           <value> 0.249645 </value>
+           <value> 0.232291 </value>
        </product>
     </function>
 
@@ -703,7 +734,7 @@
            <property>metrics/bw-ft</property>
            <property>aero/bi2vel</property>
            <property>velocities/p-rad_sec</property>
-           <value> -0.002064 </value>
+           <value> -0.001921 </value>
        </product>
     </function>
 
@@ -715,7 +746,7 @@
            <property>metrics/bw-ft</property>
            <property>aero/bi2vel</property>
            <property>velocities/r-aero-rad_sec</property>
-           <value> -0.281302 </value>
+           <value> -0.244318 </value>
        </product>
     </function>
 
@@ -726,7 +757,7 @@
            <property>metrics/Sw-sqft</property>
            <property>metrics/bw-ft</property>
            <property>fcs/rudder-pos-rad</property>
-           <value> -0.155282 </value>
+           <value> -0.144488 </value>
        </product>
     </function>
 

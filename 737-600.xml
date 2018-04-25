@@ -61,11 +61,11 @@
    <wing_incidence unit="DEG"> 2.00 </wing_incidence>
    <chord     unit="FT" >    11.92 </chord>
    <htailarea unit="FT2">   352.84 </htailarea>
-   <htailarm  unit="FT" >    46.06 </htailarm>
+   <htailarm  unit="FT" >    44.44 </htailarm>
    <vtailarea  unit="FT2">  268.19 </vtailarea>
-   <vtailarm  unit="FT" >    46.06 </vtailarm>
+   <vtailarm  unit="FT" >    39.95 </vtailarm>
    <location name="AERORP" unit="IN">
-     <x>   675.59 </x>
+     <x>   695.01 </x>
      <y>     0.00 </y>
      <z>     0.00 </z>
    </location>
@@ -87,7 +87,7 @@
    <izz unit="SLUG*FT2">  1522316.75 </izz>
    <emptywt unit="LBS" >  80213.48 </emptywt>
    <location name="CG" unit="IN">
-     <x>   675.59 </x>
+     <x>   695.01 </x>
      <y>     0.00 </y>
      <z>   -30.71 </z>
    </location>
@@ -95,7 +95,7 @@
     <description> 24999.91 LBS should bring model up to entered max weight </description>
     <weight unit="LBS"> 12499.96 </weight>
     <location name="POINTMASS" unit="IN">
-     <x>   675.59 </x>
+     <x>   695.01 </x>
      <y>     0.00 </y>
      <z>   -30.71 </z>
    </location>
@@ -106,89 +106,120 @@
 
    <engine file="CFM56-7-7B18">
     <location unit="IN">
-      <x>   675.59 </x>
-      <y>  -225.20 </y>
-      <z>   -40.00 </z>
-    </location>
-    <orient unit="DEG">
-      <pitch>     0.00 </pitch>
-       <roll>     0.00 </roll>
-        <yaw>     0.00 </yaw>
-    </orient>
-    <feed> 0 </feed>
-
-    <thruster file="direct">
-     <sense> 1 </sense>
-     <location unit="IN">
-       <x>   675.59 </x>
-       <y>  -225.20 </y>
-       <z>   -40.00 </z>
-     </location>
-     <orient unit="DEG">
-       <pitch>     0.00 </pitch>
-        <roll>     0.00 </roll>
-         <yaw>     0.00 </yaw>
-     </orient>
-    </thruster>
+				<x>  715.6 </x> <!-- value from simulator data -->
+				<y> -193.68 </y> <!-- value from simulator data -->
+				<z>  -52.38 </z> <!-- BWL 155.72 -->
+			</location>
+			<orient unit="DEG">
+				<roll>  0 </roll>
+				<pitch> 0 </pitch>
+				<yaw>   1 </yaw>
+			</orient>
+			<feed>3</feed>
+			<thruster file="direct">
+				<location unit="IN">
+					<x>  715.6 </x> <!-- value from simulator data -->
+					<y> -193.68 </y> <!-- value from simulator data -->
+					<z>  -52.38 </z> <!-- BWL 155.72 -->
+				</location>
+				<orient unit="DEG">
+					<roll>  0 </roll>
+					<pitch> 0 </pitch>
+					<yaw>   1 </yaw>
+				</orient>
+			</thruster>
   </engine>
 
    <engine file="CFM56-7-7B18">
     <location unit="IN">
-      <x>   675.59 </x>
-      <y>   225.20 </y>
-      <z>   -40.00 </z>
-    </location>
-    <orient unit="DEG">
-      <pitch>     0.00 </pitch>
-       <roll>     0.00 </roll>
-        <yaw>     0.00 </yaw>
-    </orient>
-    <feed> 1 </feed>
-
-    <thruster file="direct">
-     <sense> 1 </sense>
-     <location unit="IN">
-       <x>   675.59 </x>
-       <y>   225.20 </y>
-       <z>   -40.00 </z>
-     </location>
-     <orient unit="DEG">
-       <pitch>     0.00 </pitch>
-        <roll>     0.00 </roll>
-         <yaw>     0.00 </yaw>
-     </orient>
-    </thruster>
+				<x> 715.6 </x> <!-- value from simulator data -->
+				<y> 193.68 </y> <!-- value from simulator data -->
+				<z>  -52.38 </z> <!-- BWL 155.72 -->
+			</location>
+			<orient unit="DEG">
+				<roll>  0 </roll>
+				<pitch> 0 </pitch>
+				<yaw>  -1 </yaw>
+			</orient>
+			<feed>4</feed>
+			<thruster file="direct">
+				<location unit="IN">
+					<x> 715.6 </x> <!-- value from simulator data -->
+					<y> 193.68 </y> <!-- value from simulator data -->
+					<z>  -52.38 </z> <!-- BWL 155.72 -->
+				</location>
+				<orient unit="DEG">
+					<roll>  0 </roll>
+					<pitch> 0 </pitch>
+					<yaw>   -1 </yaw>
+				</orient>
+			</thruster>
   </engine>
 
-  <tank type="FUEL" number="0">
-     <location unit="IN">
-       <x>   675.59 </x>
-       <y>     0.00 </y>
-       <z>   -30.71 </z>
-     </location>
-     <capacity unit="LBS"> 13436.66 </capacity>
-     <contents unit="LBS"> 6718.33 </contents>
-  </tank>
-  <tank type="FUEL" number="1">
-     <location unit="IN">
-       <x>   675.59 </x>
-       <y>     0.00 </y>
-       <z>   -30.71 </z>
-     </location>
-     <capacity unit="LBS"> 13436.66 </capacity>
-     <contents unit="LBS"> 6718.33 </contents>
-  </tank>
-  <tank type="FUEL" number="2">
-     <location unit="IN">
-       <x>   675.59 </x>
-       <y>     0.00 </y>
-       <z>   -30.71 </z>
-     </location>
-     <capacity unit="LBS"> 13436.66 </capacity>
-     <contents unit="LBS"> 6718.33 </contents>
-  </tank>
-
- </propulsion>
+  <tank type="FUEL"><!-- Left wing tank -->
+			<location unit="IN">
+				<x> 767.01 </x> <!-- based on trimsheet calculation. Correct value -->
+				<y> -350 </y>
+				<z> 26.58 </z>
+			</location>
+			<drain_location unit="IN">
+				<x> 703.09</x> <!-- based on trimsheet calculation. Correct value -->
+				<y> -200 </y>
+				<z> 10.91 </z>
+			</drain_location>
+			<capacity unit="LBS"> 8630 </capacity>
+			<contents unit="LBS"> 8630 </contents>
+			<temperature> 59.0 </temperature> <!-- Fuel temp in degrees F -->
+		</tank>
+		<tank type="FUEL"><!-- Right wing tank -->
+			<location unit="IN">
+				<x> 767.01 </x> <!-- based on trimsheet calculation. Correct value -->
+				<y> 350 </y>
+				<z> 26.58 </z>
+			</location>
+			<drain_location unit="IN">
+				<x> 703.09</x> <!-- based on trimsheet calculation. Correct value -->
+				<y> 200 </y>
+				<z> 10.91 </z>
+			</drain_location>
+			<capacity unit="LBS"> 8630 </capacity>
+			<contents unit="LBS"> 8630 </contents>
+			<temperature> 59.0 </temperature> <!-- Fuel temp in degrees F -->
+		</tank>
+		<tank type="FUEL"><!-- Center tank -->
+			<location unit="IN">
+				<x> 675.41 </x> <!-- based on trimsheet calculation. Correct value -->
+				<y>   0 </y>
+				<z> -19.54 </z>
+			</location>
+			<drain_location unit="IN">
+				<x> 675.46 </x> <!-- based on trimsheet calculation. Correct value -->
+				<y> 0 </y>
+				<z> -97.4 </z>
+			</drain_location>
+			<capacity unit="LBS"> 28803 </capacity>
+			<contents unit="LBS">  9000 </contents>
+			<temperature> 59.0 </temperature> <!-- Fuel temp in degrees F -->
+		</tank>
+		<tank type="FUEL"><!-- Feed pipe for left engine -->
+			<location unit="IN">
+				<x> 700 </x>
+				<y>-193 </y>
+				<z> -40 </z>
+			</location>
+			<capacity unit="LBS"> 0.5 </capacity>
+			<contents unit="LBS"> 0.25 </contents>
+		</tank>
+		<tank type="FUEL"><!-- Feed pipe for right engine -->
+			<location unit="IN">
+				<x> 700 </x>
+				<y> 193 </y>
+				<z> -40 </z>
+			</location>
+			<capacity unit="LBS"> 0.5 </capacity>
+			<contents unit="LBS"> 0.25 </contents>
+		</tank>
+	</propulsion>
 
  <ground_reactions>
 
@@ -210,7 +241,7 @@
 
   <contact type="BOGEY" name="LEFT_MAIN">
     <location unit="IN">
-      <x>   702.61 </x>
+      <x>   722.81 </x>
       <y>  -121.61 </y>
       <z>  -147.40 </z>
     </location>
@@ -226,7 +257,7 @@
 
   <contact type="BOGEY" name="RIGHT_MAIN">
     <location unit="IN">
-      <x>   702.61 </x>
+      <x>   722.81 </x>
       <y>   121.61 </y>
       <z>  -147.40 </z>
     </location>
@@ -242,7 +273,7 @@
 
   <contact type="STRUCTURE" name="LEFT_WING">
     <location unit="IN">
-     <x>   675.59 </x>
+     <x>   695.01 </x>
      <y>  -675.59 </y>
      <z>   -30.71 </z>
     </location>
@@ -254,7 +285,7 @@
 
   <contact type="STRUCTURE" name="RIGHT_WING">
     <location unit="IN">
-     <x>   675.59 </x>
+     <x>   695.01 </x>
      <y>   675.59 </y>
      <z>   -30.71 </z>
     </location>
@@ -316,7 +347,7 @@
           <property>metrics/Sw-sqft</property>
           <property>velocities/q-aero-rad_sec</property>
           <property>aero/ci2vel</property>
-          <value> 8.3880 </value>
+          <value> 8.0934 </value>
         </product>
       </function>
 
@@ -327,7 +358,7 @@
            <property>metrics/Sw-sqft</property>
            <property>aero/alphadot-rad_sec</property>
            <property>aero/ci2vel</property>
-           <value> 2.9303 </value>
+           <value> 2.8274 </value>
         </product>
       </function>
 
@@ -523,7 +554,7 @@
            <property>metrics/Sw-sqft</property>
            <property>aero/bi2vel</property>
            <property>velocities/r-aero-rad_sec</property>
-           <value> 0.7700 </value>
+           <value> 0.6679 </value>
        </product>
     </function>
 
@@ -629,7 +660,7 @@
            <property>metrics/bw-ft</property>
            <property>aero/bi2vel</property>
            <property>velocities/r-aero-rad_sec</property>
-           <value> -0.003808 </value>
+           <value> -0.002901 </value>
        </product>
     </function>
 
@@ -691,7 +722,7 @@
            <property>metrics/Sw-sqft</property>
            <property>metrics/bw-ft</property>
            <property>aero/beta-rad</property>
-           <value> 0.18501 </value>
+           <value> 0.160477 </value>
        </product>
     </function>
 
@@ -703,7 +734,7 @@
            <property>metrics/bw-ft</property>
            <property>aero/bi2vel</property>
            <property>velocities/p-rad_sec</property>
-           <value> -0.001530 </value>
+           <value> -0.001327 </value>
        </product>
     </function>
 
@@ -715,7 +746,7 @@
            <property>metrics/bw-ft</property>
            <property>aero/bi2vel</property>
            <property>velocities/r-aero-rad_sec</property>
-           <value> -0.157061 </value>
+           <value> -0.119579 </value>
        </product>
     </function>
 
@@ -726,7 +757,7 @@
            <property>metrics/Sw-sqft</property>
            <property>metrics/bw-ft</property>
            <property>fcs/rudder-pos-rad</property>
-           <value> -0.115078 </value>
+           <value> -0.0998189 </value>
        </product>
     </function>
 
