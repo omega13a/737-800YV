@@ -27,10 +27,10 @@
   <bypassratio>     5.500 </bypassratio>
   <tsfc>            0.584 </tsfc>
   <bleed>           0.03</bleed>
-  <idlen1>         30.0 </idlen1>
-  <idlen2>         60.0 </idlen2>
-  <maxn1>         100.0 </maxn1>
-  <maxn2>         100.0 </maxn2>
+  <idlen1>         20.0 </idlen1>
+  <idlen2>         59.0 </idlen2>
+  <maxn1>         104.0 </maxn1>
+  <maxn2>         106.0 </maxn2>
   <augmented>         0 </augmented>
   <injected>          0 </injected>
 

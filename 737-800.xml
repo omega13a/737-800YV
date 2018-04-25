@@ -1,29 +1,70 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="http://jsbsim.sourceforge.net/JSBSim.xsl"?>
-<fdm_config name="738" release="BETA" version="2.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 
-	<fileheader>
-		<author> Michael Soitanen, YV3399 And it0uchpods </author>
-		<filecreationdate> 2014-09-30 </filecreationdate>
-		<version>$Revison: 1.0 $</version>
-		<description> Models a 737-800. </description>
-	</fileheader>
+<fdm_config name="737-800" version="2.0" release="ALPHA"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
+
+ <fileheader>
+  <author> Aeromatic v 3.3.10 </author>
+  <filecreationdate> 24 Apr 2018 </filecreationdate>
+  <version>$Revision: 1.80 $</version>
+  <description> Models a 737-800. </description>
+ </fileheader>
 
 <!--
-	base datum - nose of aircraft. BWL at this point 208.1 in. Source - structure diagrams.
+  File:     737-800.xml
+  Inputs:
+    name:          737-800
+    type:          Multi-engine Passenger Jet Airliner, Transonic Jet Transport
+    stall speed:   unspecified
+    max weight:    174230.28 lb
+    length:        129.59 ft
+    wing: 
+     span:         112.60 ft
+     area:         1340.97 sq-ft
+     mean chord:   11.92 ft
+     aspect ratio: 9.45:1
+     taper ratio:  0.16:1
+     incidence:    2.00 degrees
+     dihedral:     6.00 degrees
+     sweep:        25.02 degrees
+
+    no. engines:   2
+    engine type:   Turbine Engine
+    engine layout: wings
+
+    control type:   Conventional with Yaw Damper
+
+    gear type:     tricycle
+    steering type: steering
+    retractable?:  yes
+
+  Outputs:
+    wing loading:       129.93 lb/sq-ft
+     - thickness ratio: 15.00%
+    payload:            34652.83 lbs
+    CL-alpha:           5.38 per radian
+    CL-0:               0.20
+    CL-max:             1.20
+    CD-0:               0.02
+    K:                  0.04
+    Mcrit:              0.79
+
+    min. turn radius    -nan ft
+    max. turn rate:     -nan deg/s
 -->
 
-	<metrics>
-		<wingarea unit="FT2"> 1341.00 </wingarea> <!-- value from simulator data. Checked -->
-		<wingspan unit="IN">  1350.81 </wingspan> <!-- value from simulator data. Checked -->
-		<chord unit="IN">      155.81 </chord> <!-- value from simulator data. Checked -->
-		<htailarea unit="FT2"> 352.80 </htailarea> <!-- value from simulator data. Checked -->
-		<htailarm unit="IN">   696.72 </htailarm> <!-- value from simulator data. Checked -->
-		<vtailarea unit="FT2"> 284.60 </vtailarea> <!-- value from simulator data. Checked -->
-		<vtailarm unit="IN">   642.83 </vtailarm> <!-- value from simulator data. Checked -->
-		<location name="AERORP" unit="IN">
+ <metrics>
+   <wingarea  unit="FT2">  1340.97 </wingarea>
+   <wingspan  unit="FT" >   112.60 </wingspan>
+   <wing_incidence unit="DEG"> 2.00 </wing_incidence>
+   <chord     unit="FT" >    11.92 </chord>
+   <htailarea unit="FT2">   352.84 </htailarea>
+   <htailarm  unit="FT" >    58.06 </htailarm>
+   <vtailarea  unit="FT2">  268.19 </vtailarea>
+   <vtailarm  unit="FT" >    53.57 </vtailarm>
+   <location name="AERORP" unit="IN">
 			<x>  734 </x> <!-- 25% MAC -->
 			<y>    0 </y>
 			<z>-6.71 </z> <!-- BWL 201.39 -->
@@ -38,17 +79,17 @@
 			<y> 0 </y>
 			<z> 0.0785 </z>
 		</location>
-	</metrics>
+ </metrics>
 
-	<mass_balance> <!-- MOIs based on reverse engineering of FFS certification tests -->
-		<ixx unit="SLUG*FT2">    445000 </ixx>
-		<iyy unit="SLUG*FT2"> 2.141e+06 </iyy>
-		<izz unit="SLUG*FT2"> 2.588e+06 </izz>
-		<ixy unit="SLUG*FT2">         0 </ixy>
-		<ixz unit="SLUG*FT2">    110000 </ixz>
-		<iyz unit="SLUG*FT2">         0 </iyz>
-		<emptywt unit="LBS">      97060 </emptywt> <!-- based on real info about EI-RUA aircraft. 2 pilots and 5 cabin crew included -->
-		<location name="CG" unit="IN">
+ <mass_balance>
+   <ixx unit="SLUG*FT2">  51558484.00 </ixx>
+   <iyy unit="SLUG*FT2">  248060032.00 </iyy>
+   <izz unit="SLUG*FT2">  299850240.00 </izz>
+   <ixy unit="SLUG*FT2">         0 </ixy>
+   <ixz unit="SLUG*FT2">    110000 </ixz>
+   <iyz unit="SLUG*FT2">         0 </iyz>
+   <emptywt unit="LBS" >  91315.66 </emptywt>
+   <location name="CG" unit="IN">
 			<x> 729.56 </x> <!-- based on real info about EI-RUA aircraft. 2 pilots and 5 cabin crew included -->
 			<y>   0 </y>
 			<z>   0 </z>
@@ -138,7 +179,126 @@
 
 	</mass_balance>
 
-	<ground_reactions>
+ <propulsion>
+
+   <engine file="CFM56-7-7B24">
+    <location unit="IN">
+				<x>  715.6 </x> <!-- value from simulator data -->
+				<y> -193.68 </y> <!-- value from simulator data -->
+				<z>  -52.38 </z> <!-- BWL 155.72 -->
+			</location>
+			<orient unit="DEG">
+				<roll>  0 </roll>
+				<pitch> 0 </pitch>
+				<yaw>   1 </yaw>
+			</orient>
+			<feed>3</feed>
+			<thruster file="direct">
+				<location unit="IN">
+					<x>  715.6 </x> <!-- value from simulator data -->
+					<y> -193.68 </y> <!-- value from simulator data -->
+					<z>  -52.38 </z> <!-- BWL 155.72 -->
+				</location>
+				<orient unit="DEG">
+					<roll>  0 </roll>
+					<pitch> 0 </pitch>
+					<yaw>   1 </yaw>
+				</orient>
+			</thruster>
+  </engine>
+
+   <engine file="CFM56-7-7B24">
+    <location unit="IN">
+				<x> 715.6 </x> <!-- value from simulator data -->
+				<y> 193.68 </y> <!-- value from simulator data -->
+				<z>  -52.38 </z> <!-- BWL 155.72 -->
+			</location>
+			<orient unit="DEG">
+				<roll>  0 </roll>
+				<pitch> 0 </pitch>
+				<yaw>  -1 </yaw>
+			</orient>
+			<feed>4</feed>
+			<thruster file="direct">
+				<location unit="IN">
+					<x> 715.6 </x> <!-- value from simulator data -->
+					<y> 193.68 </y> <!-- value from simulator data -->
+					<z>  -52.38 </z> <!-- BWL 155.72 -->
+				</location>
+				<orient unit="DEG">
+					<roll>  0 </roll>
+					<pitch> 0 </pitch>
+					<yaw>   -1 </yaw>
+				</orient>
+			</thruster>
+  </engine>
+
+  <tank type="FUEL"><!-- Left wing tank -->
+			<location unit="IN">
+				<x> 767.01 </x> <!-- based on trimsheet calculation. Correct value -->
+				<y> -350 </y>
+				<z> 26.58 </z>
+			</location>
+			<drain_location unit="IN">
+				<x> 703.09</x> <!-- based on trimsheet calculation. Correct value -->
+				<y> -200 </y>
+				<z> 10.91 </z>
+			</drain_location>
+			<capacity unit="LBS"> 8630 </capacity>
+			<contents unit="LBS"> 8630 </contents>
+			<temperature> 59.0 </temperature> <!-- Fuel temp in degrees F -->
+		</tank>
+		<tank type="FUEL"><!-- Right wing tank -->
+			<location unit="IN">
+				<x> 767.01 </x> <!-- based on trimsheet calculation. Correct value -->
+				<y> 350 </y>
+				<z> 26.58 </z>
+			</location>
+			<drain_location unit="IN">
+				<x> 703.09</x> <!-- based on trimsheet calculation. Correct value -->
+				<y> 200 </y>
+				<z> 10.91 </z>
+			</drain_location>
+			<capacity unit="LBS"> 8630 </capacity>
+			<contents unit="LBS"> 8630 </contents>
+			<temperature> 59.0 </temperature> <!-- Fuel temp in degrees F -->
+		</tank>
+		<tank type="FUEL"><!-- Center tank -->
+			<location unit="IN">
+				<x> 675.41 </x> <!-- based on trimsheet calculation. Correct value -->
+				<y>   0 </y>
+				<z> -19.54 </z>
+			</location>
+			<drain_location unit="IN">
+				<x> 675.46 </x> <!-- based on trimsheet calculation. Correct value -->
+				<y> 0 </y>
+				<z> -97.4 </z>
+			</drain_location>
+			<capacity unit="LBS"> 28803 </capacity>
+			<contents unit="LBS">  9000 </contents>
+			<temperature> 59.0 </temperature> <!-- Fuel temp in degrees F -->
+		</tank>
+		<tank type="FUEL"><!-- Feed pipe for left engine -->
+			<location unit="IN">
+				<x> 700 </x>
+				<y>-193 </y>
+				<z> -40 </z>
+			</location>
+			<capacity unit="LBS"> 0.5 </capacity>
+			<contents unit="LBS"> 0.25 </contents>
+		</tank>
+		<tank type="FUEL"><!-- Feed pipe for right engine -->
+			<location unit="IN">
+				<x> 700 </x>
+				<y> 193 </y>
+				<z> -40 </z>
+			</location>
+			<capacity unit="LBS"> 0.5 </capacity>
+			<contents unit="LBS"> 0.25 </contents>
+		</tank>
+	</propulsion>
+
+ <ground_reactions>
 		<contact name="Nose Gear" type="BOGEY"> <!-- from AMM - maximum NLG compression is 15.5 in -->
 			<location unit="IN">
 				<x> 161 </x>
@@ -397,124 +557,7 @@
 		</contact>
 	</ground_reactions>
 
-	<propulsion>
-		<engine file="cfm56_7b26">
-			<location unit="IN">
-				<x>  715.6 </x> <!-- value from simulator data -->
-				<y> -193.68 </y> <!-- value from simulator data -->
-				<z>  -52.38 </z> <!-- BWL 155.72 -->
-			</location>
-			<orient unit="DEG">
-				<roll>  0 </roll>
-				<pitch> 0 </pitch>
-				<yaw>   1 </yaw>
-			</orient>
-			<feed>3</feed>
-			<thruster file="direct">
-				<location unit="IN">
-					<x>  715.6 </x> <!-- value from simulator data -->
-					<y> -193.68 </y> <!-- value from simulator data -->
-					<z>  -52.38 </z> <!-- BWL 155.72 -->
-				</location>
-				<orient unit="DEG">
-					<roll>  0 </roll>
-					<pitch> 0 </pitch>
-					<yaw>   1 </yaw>
-				</orient>
-			</thruster>
-		</engine>
-		<engine file="CFM56-7-7B24">
-			<location unit="IN">
-				<x> 715.6 </x> <!-- value from simulator data -->
-				<y> 193.68 </y> <!-- value from simulator data -->
-				<z>  -52.38 </z> <!-- BWL 155.72 -->
-			</location>
-			<orient unit="DEG">
-				<roll>  0 </roll>
-				<pitch> 0 </pitch>
-				<yaw>  -1 </yaw>
-			</orient>
-			<feed>4</feed>
-			<thruster file="direct">
-				<location unit="IN">
-					<x> 715.6 </x> <!-- value from simulator data -->
-					<y> 193.68 </y> <!-- value from simulator data -->
-					<z>  -52.38 </z> <!-- BWL 155.72 -->
-				</location>
-				<orient unit="DEG">
-					<roll>  0 </roll>
-					<pitch> 0 </pitch>
-					<yaw>   -1 </yaw>
-				</orient>
-			</thruster>
-		</engine>
-
-		<tank type="FUEL"><!-- Left wing tank -->
-			<location unit="IN">
-				<x> 767.01 </x> <!-- based on trimsheet calculation. Correct value -->
-				<y> -350 </y>
-				<z> 26.58 </z>
-			</location>
-			<drain_location unit="IN">
-				<x> 703.09</x> <!-- based on trimsheet calculation. Correct value -->
-				<y> -200 </y>
-				<z> 10.91 </z>
-			</drain_location>
-			<capacity unit="LBS"> 8630 </capacity>
-			<contents unit="LBS"> 8630 </contents>
-			<temperature> 59.0 </temperature> <!-- Fuel temp in degrees F -->
-		</tank>
-		<tank type="FUEL"><!-- Right wing tank -->
-			<location unit="IN">
-				<x> 767.01 </x> <!-- based on trimsheet calculation. Correct value -->
-				<y> 350 </y>
-				<z> 26.58 </z>
-			</location>
-			<drain_location unit="IN">
-				<x> 703.09</x> <!-- based on trimsheet calculation. Correct value -->
-				<y> 200 </y>
-				<z> 10.91 </z>
-			</drain_location>
-			<capacity unit="LBS"> 8630 </capacity>
-			<contents unit="LBS"> 8630 </contents>
-			<temperature> 59.0 </temperature> <!-- Fuel temp in degrees F -->
-		</tank>
-		<tank type="FUEL"><!-- Center tank -->
-			<location unit="IN">
-				<x> 675.41 </x> <!-- based on trimsheet calculation. Correct value -->
-				<y>   0 </y>
-				<z> -19.54 </z>
-			</location>
-			<drain_location unit="IN">
-				<x> 675.46 </x> <!-- based on trimsheet calculation. Correct value -->
-				<y> 0 </y>
-				<z> -97.4 </z>
-			</drain_location>
-			<capacity unit="LBS"> 28803 </capacity>
-			<contents unit="LBS">  9000 </contents>
-			<temperature> 59.0 </temperature> <!-- Fuel temp in degrees F -->
-		</tank>
-		<tank type="FUEL"><!-- Feed pipe for left engine -->
-			<location unit="IN">
-				<x> 700 </x>
-				<y>-193 </y>
-				<z> -40 </z>
-			</location>
-			<capacity unit="LBS"> 0.5 </capacity>
-			<contents unit="LBS"> 0.25 </contents>
-		</tank>
-		<tank type="FUEL"><!-- Feed pipe for right engine -->
-			<location unit="IN">
-				<x> 700 </x>
-				<y> 193 </y>
-				<z> -40 </z>
-			</location>
-			<capacity unit="LBS"> 0.5 </capacity>
-			<contents unit="LBS"> 0.25 </contents>
-		</tank>
-	</propulsion>
-
-	<system file="pushback"/>
+ <system file="pushback"/>
 	<system file="fuel"/>
 	<system file="fmc"/>
 
@@ -2139,4 +2182,3 @@
 	</output>-->
 
 </fdm_config>
-
