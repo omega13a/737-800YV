@@ -21,7 +21,7 @@
     </tags>
 		<aero>737-600</aero>
 		<startup>
-                        <splash-texture>Aircraft/737-Next-Generation/Splash/600/splash-600.png<splash-texture>
+                        <splash-texture>Aircraft/737-Next-Generation/Splash/600/splash-600.png</splash-texture>
                 </startup>
 
 		<previews>
