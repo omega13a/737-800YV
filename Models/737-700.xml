@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <PropertyList include="737-model-common.xml">
   <path>737-700.ac</path>
+  <offsets>
+    <z-m>-1.20</z-m>
+    <!--<pitch-deg>-1.2</pitch-deg>-->
+  </offsets>
   <animation n="0">
     <type>material</type>
     <object-name>fuselage</object-name>

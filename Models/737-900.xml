@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <PropertyList include="737-model-common.xml">
   <path>737-900.ac</path>
+  <offsets>
+    <z-m>-1.30</z-m>
+    <!--<pitch-deg>-1.2</pitch-deg>-->
+  </offsets>
   <animation n="0">
     <texture>737-900.png</texture>
   </animation>

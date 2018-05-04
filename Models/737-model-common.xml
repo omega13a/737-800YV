@@ -1,9 +1,6 @@
 <?xml version="1.0"?>
 <PropertyList>
-  <offsets>
-    <z-m>-1.20/z-m>
-    <!--<pitch-deg>-1.2</pitch-deg>-->
-  </offsets>
+  
   <nasal n="0">
     <load>
       var liveries = getprop("/sim/liveries-path");
