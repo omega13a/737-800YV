@@ -2,7 +2,7 @@
 <PropertyList include="737-model-common.xml">
   <path>737-900.ac</path>
   <offsets>
-    <z-m>-1.50</z-m>
+    <z-m>-1.60</z-m>
     <!--<pitch-deg>-1.2</pitch-deg>-->
   </offsets>
   <animation n="0">
