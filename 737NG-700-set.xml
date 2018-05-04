@@ -78,19 +78,6 @@
 			</config>
 		</view>
 
-		<view n="0">
-			<internal archive="y">true</internal>
-			<config>
-				<from-model type="bool">true</from-model>
-				<from-model-idx type="int">0</from-model-idx>
-				<!-- x/y/z == right/up/back --> 
-				<x-offset-m archive="y">-0.4</x-offset-m>
-				<y-offset-m archive="y">1.49</y-offset-m>
-				<z-offset-m archive="y">-14.65</z-offset-m>
-				<pitch-offset-deg archive="y">-8.0</pitch-offset-deg>
-			</config>
-    </view>
-
 		<view n="106">
 			<name>Copilot</name>
 			<type>lookfrom</type>
