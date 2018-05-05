@@ -228,12 +228,12 @@
 		</view>
 	</sim>
 
-	<limits> <!-- based on EI-RUA aircraft data -->
+	<limits> <!-- According to http://wwww.b737.org.uk -->
 		<mass-and-balance>
-			<maximum-ramp-mass-lbs>173000</maximum-ramp-mass-lbs>
-			<maximum-takeoff-mass-lbs>172500</maximum-takeoff-mass-lbs>
-			<maximum-landing-mass-lbs>144076</maximum-landing-mass-lbs>
-			<maximum-zero-fuel-mass-lbs>136000</maximum-zero-fuel-mass-lbs>
+			<maximum-ramp-mass-lbs>174670.05</maximum-ramp-mass-lbs>
+			<maximum-takeoff-mass-lbs>174169.6</maximum-takeoff-mass-lbs>
+			<maximum-landing-mass-lbs>146274.51</maximum-landing-mass-lbs>
+			<maximum-zero-fuel-mass-lbs>138276.14</maximum-zero-fuel-mass-lbs>
 		</mass-and-balance>
 		<max-flap-extension-speed>
 			<flaps>0.125</flaps>
