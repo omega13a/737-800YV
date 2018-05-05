@@ -387,7 +387,8 @@
 		</icing>
 	</nasal>
 	
-	<cdu>
+	<instrumentation>
+		<cdu>
 			<display>IDENT</display>
 			<ident>
 				<model>737-800</model>
@@ -396,4 +397,5 @@
 			<input type="string"/>
 			<serviceable type="bool">true</serviceable>
 		</cdu>
+	</instrumentation>
 </PropertyList>

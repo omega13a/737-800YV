@@ -295,7 +295,8 @@
 
 	</payload>
 
-	<cdu>
+	<instrumentation>
+		<cdu>
 			<display>IDENT</display>
 			<ident>
 				<model>737-900</model>
@@ -304,6 +305,7 @@
 			<input type="string"/>
 			<serviceable type="bool">true</serviceable>
 		</cdu>
+	</instrumentation>
 
 	<nasal>
 		<cdu>
