@@ -386,4 +386,14 @@
 			<file>Aircraft/737-Next-Generation/Nasal/icing.nas</file>
 		</icing>
 	</nasal>
+	
+	<cdu>
+			<display>IDENT</display>
+			<ident>
+				<model>737-800</model>
+				<engines>CFM56-7B24</engines>
+			</ident>
+			<input type="string"/>
+			<serviceable type="bool">true</serviceable>
+		</cdu>
 </PropertyList>

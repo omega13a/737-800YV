@@ -295,6 +295,16 @@
 
 	</payload>
 
+	<cdu>
+			<display>IDENT</display>
+			<ident>
+				<model>737-900</model>
+				<engines>CFM56-7B26</engines>
+			</ident>
+			<input type="string"/>
+			<serviceable type="bool">true</serviceable>
+		</cdu>
+
 	<nasal>
 		<cdu>
 			<file>Aircraft/737-Next-Generation/Models/Instruments/CDU/boeing.nas</file> <!-- custom implementation of the CDU from instruments-3D -->

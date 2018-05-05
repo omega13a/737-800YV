@@ -788,16 +788,6 @@
 			<spin type="double">1</spin>
 		</turn-indicator>
 
-		<cdu>
-			<display>IDENT</display>
-			<ident>
-				<model>737-800</model>
-				<engines>CFM56-7B26</engines>
-			</ident>
-			<input type="string"/>
-			<serviceable type="bool">true</serviceable>
-		</cdu>
-
 		<fmc>
 			<to-flap type="double">5</to-flap>
 			<derated-to>
