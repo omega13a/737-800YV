@@ -27,7 +27,7 @@
   <parameters>
 	  <lightmap-enabled><use>/controls/lighting/logo-lights</use></lightmap-enabled>
     <texture n="3">
-      <image>Aircraft/737-800YV/Models/Effects/LightMap/logolight_lightmap.png</image>
+      <image>Aircraft/737-Next-Generation/Models/Effects/LightMap/logolight_lightmap.png</image>
     </texture>
   </parameters>
   <object-name>rudder</object-name>

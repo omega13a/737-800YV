@@ -15,7 +15,7 @@
 		<reflection-dynamic type="int"><use>/sim/model/rendering/reflection-dynamic</use></reflection-dynamic>
 		<ambient-correction type="float"><use>/sim/model/rendering/ambient-correction</use></ambient-correction>
 		<texture n="4">
-			<image>Aircraft/737-800YV/Models/Effects/greymap.png</image>
+			<image>Aircraft/737-Next-Generation/Models/Effects/greymap.png</image>
 				<filter>linear-mipmap-linear</filter>
 			<wrap-s>clamp</wrap-s>
 			<wrap-t>clamp</wrap-t>
