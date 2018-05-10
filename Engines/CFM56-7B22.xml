@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 
 <!--
-  File:     CFM56-7-7B24.xml
+  File:     CFM56-7B22.xml
   Author:   AeromatiC++ v 3.3.10
 
   See: http://wiki.flightgear.org/JSBSim_Engines#FGTurbine
 
   Inputs:
-    name:                    CFM56-7-7B24
+    name:                    CFM56-7B22
     type:                    Turbine Engine
-    thrust:                  24054.6 lbf
+    thrust:                  22700.0 lbf
     bypass ratio:            5.300:1
     overall pressure ratio:  32.7:1
     augmented?               no
@@ -17,13 +17,13 @@
 
   Outputs
     tsfc:                    0.6
-    engine weight:           4599.2 lbs
-    engine length:           10.0 ft
-    engine diameter:         5.8 ft
+    engine weight:           4359.0 lbs
+    engine length:           9.8 ft
+    engine diameter:         5.7 ft
 -->
 
-<turbine_engine name="CFM56-7-7B24">
-  <milthrust> 24054.6 </milthrust>
+<turbine_engine name="CFM56-7B22">
+  <milthrust> 22700.0 </milthrust>
   <bypassratio>     5.300 </bypassratio>
   <tsfc>            0.587 </tsfc>
   <bleed>           0.03</bleed>

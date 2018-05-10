@@ -1,31 +1,31 @@
 <?xml version="1.0"?>
 
 <!--
-  File:     CFM56-7-7B20.xml
+  File:     CFM56-7B27.xml
   Author:   AeromatiC++ v 3.3.10
 
   See: http://wiki.flightgear.org/JSBSim_Engines#FGTurbine
 
   Inputs:
-    name:                    CFM56-7-7B20
+    name:                    CFM56-7B27
     type:                    Turbine Engine
-    thrust:                  20008.0 lbf
-    bypass ratio:            5.400:1
+    thrust:                  27300.0 lbf
+    bypass ratio:            5.100:1
     overall pressure ratio:  32.7:1
     augmented?               no
     injected?                no
 
   Outputs
     tsfc:                    0.6
-    engine weight:           3878.4 lbs
-    engine length:           9.3 ft
-    engine diameter:         5.4 ft
+    engine weight:           5170.7 lbs
+    engine length:           10.5 ft
+    engine diameter:         6.2 ft
 -->
 
-<turbine_engine name="CFM56-7-7B20">
-  <milthrust> 20008.0 </milthrust>
-  <bypassratio>     5.400 </bypassratio>
-  <tsfc>            0.585 </tsfc>
+<turbine_engine name="CFM56-7B27">
+  <milthrust> 27300.0 </milthrust>
+  <bypassratio>     5.100 </bypassratio>
+  <tsfc>            0.589 </tsfc>
   <bleed>           0.03</bleed>
   <idlen1>         20.0 </idlen1>
   <idlen2>         59.0 </idlen2>
@@ -57,13 +57,13 @@
     <tableData>
           -10000       0   10000   20000   30000   40000   50000   60000   90000
       0.0  1.2600  1.0000  0.7400  0.5340  0.3720  0.2410  0.1490  0.0580  0
-      0.2  1.0319  0.8230  0.6142  0.4459  0.3128  0.2036  0.1260  0.0352  0
-      0.4  0.8768  0.7022  0.5276  0.3858  0.2722  0.1776  0.1105  0.0328  0
-      0.6  0.7601  0.6121  0.4640  0.3424  0.2433  0.1596  0.0991  0.0302  0
-      0.8  0.6602  0.5353  0.4104  0.3054  0.2188  0.1443  0.0892  0.0278  0
-      1.0  0.5558  0.4547  0.3536  0.2643  0.1928  0.1279  0.0792  0.0256  0
-      1.2  0.4265  0.3533  0.2800  0.2137  0.1565  0.1045  0.0646  0.0213  0
-      1.4  0.2684  0.2257  0.1829  0.1423  0.1058  0.0714  0.0443  0.0152  0
+      0.2  1.0396  0.8292  0.6188  0.4492  0.3152  0.2051  0.1270  0.0355  0
+      0.4  0.8919  0.7143  0.5367  0.3925  0.2769  0.1807  0.1125  0.0334  0
+      0.6  0.7835  0.6309  0.4783  0.3529  0.2508  0.1645  0.1022  0.0312  0
+      0.8  0.6934  0.5622  0.4310  0.3208  0.2299  0.1516  0.0937  0.0292  0
+      1.0  0.6010  0.4917  0.3824  0.2858  0.2085  0.1383  0.0856  0.0277  0
+      1.2  0.4853  0.4020  0.3186  0.2431  0.1781  0.1190  0.0735  0.0242  0
+      1.4  0.3421  0.2876  0.2331  0.1813  0.1348  0.0910  0.0564  0.0193  0
     </tableData>
    </table>
   </function>

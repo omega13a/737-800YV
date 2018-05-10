@@ -104,7 +104,7 @@
 
  <propulsion>
 
-   <engine file="CFM56-7-7B26">
+   <engine file="CFM56-7B26">
     <location unit="IN">
 				<x>  715.6 </x> <!-- value from simulator data -->
 				<y> -193.68 </y> <!-- value from simulator data -->
@@ -130,7 +130,7 @@
 			</thruster>
   </engine>
 
-   <engine file="CFM56-7-7B26">
+   <engine file="CFM56-7B26">
     <location unit="IN">
 				<x> 715.6 </x> <!-- value from simulator data -->
 				<y> 193.68 </y> <!-- value from simulator data -->
