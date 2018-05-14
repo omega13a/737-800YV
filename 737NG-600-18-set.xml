@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<PropertyList include="737NG-600-common.xml">
+
+	<sim>
+		<description>Boeing 737-600 (CFM56-7B18)</description>
+		<aero>737-600-18</aero>
+	</sim>
+	<instrumentation>
+		<cdu>
+			<display>IDENT</display>
+			<ident>
+				<model>737-600</model>
+				<engines>CFM56-7B18</engines>
+			</ident>
+			<input type="string"/>
+			<serviceable type="bool">true</serviceable>
+		</cdu>
+	</instrumentation>
+</PropertyList>
