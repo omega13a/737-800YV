@@ -3,7 +3,6 @@
 <PropertyList include="737ng-common.xml">
 
 	<sim>
-		<description>Boeing 737-900</description>
 		<liveries-path type="string">Aircraft/737-Next-Generation/Models/Liveries-900</liveries-path>
 	<tags>
       <tag>boeing</tag>
@@ -19,7 +18,6 @@
       <tag>ifr</tag>
       <tag>glass-cockpit</tag>
     </tags>
-		<aero>737-900</aero>
 		<startup>
                         <splash-texture>Aircraft/737-Next-Generation/Splash/900/splash-900.png</splash-texture>
                 </startup>
@@ -294,18 +292,6 @@
 		</weight>
 
 	</payload>
-
-	<instrumentation>
-		<cdu>
-			<display>IDENT</display>
-			<ident>
-				<model>737-900</model>
-				<engines>CFM56-7B26</engines>
-			</ident>
-			<input type="string"/>
-			<serviceable type="bool">true</serviceable>
-		</cdu>
-	</instrumentation>
 
 	<nasal>
 		<cdu>

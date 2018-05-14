@@ -3,7 +3,6 @@
 <PropertyList include="737ng-common.xml">
 
 	<sim>
-		<description>Boeing 737-800</description>
 		<liveries-path type="string">Aircraft/737-Next-Generation/Models/Liveries-800</liveries-path>
 	<tags>
       <tag>boeing</tag>
@@ -19,7 +18,6 @@
       <tag>ifr</tag>
       <tag>glass-cockpit</tag>
     </tags>
-		<aero>737-800</aero>
 		<startup>
                         <splash-texture>Aircraft/737-Next-Generation/Splash/800/splash-1.png</splash-texture>
                         <splash-texture>Aircraft/737-Next-Generation/Splash/800/splash-2.png</splash-texture>
@@ -387,15 +385,4 @@
 		</icing>
 	</nasal>
 	
-	<instrumentation>
-		<cdu>
-			<display>IDENT</display>
-			<ident>
-				<model>737-800</model>
-				<engines>CFM56-7B24</engines>
-			</ident>
-			<input type="string"/>
-			<serviceable type="bool">true</serviceable>
-		</cdu>
-	</instrumentation>
 </PropertyList>

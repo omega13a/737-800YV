@@ -3,7 +3,6 @@
 <PropertyList include="737ng-common.xml">
 
 	<sim>
-		<description>Boeing 737-600</description>
 		<liveries-path type="string">Aircraft/737-Next-Generation/Models/Liveries-600</liveries-path>
 	<tags>
       <tag>boeing</tag>
@@ -19,7 +18,6 @@
       <tag>ifr</tag>
       <tag>glass-cockpit</tag>
     </tags>
-		<aero>737-600</aero>
 		<startup>
                         <splash-texture>Aircraft/737-Next-Generation/Splash/600/splash-600.png</splash-texture>
                 </startup>
