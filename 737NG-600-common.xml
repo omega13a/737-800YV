@@ -39,13 +39,6 @@
 				<ambient-correction type="float">0.15</ambient-correction>
 			</rendering>
 		</model> 
-   
-		<rating>
-			<FDM type="int">3</FDM>
-			<systems type="int">3</systems>
-			<cockpit type="int">3</cockpit>
-			<model type="int">4</model>
-		</rating>
 
 		<view>
 			<type>lookfrom</type>

@@ -20,6 +20,15 @@
       <tag>ifr</tag>
       <tag>glass-cockpit</tag>
     </tags>
+    
+    <rating>
+			<FDM type="int">3</FDM>
+			<systems type="int">3</systems>
+			<cockpit type="int">3</cockpit>
+			<model type="int">4</model>
+		</rating>
+		
+		
 		<systems>
 			<!-- Disable the generic electrical system -->
 			<electrical>
