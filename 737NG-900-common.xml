@@ -4,20 +4,6 @@
 
 	<sim>
 		<liveries-path type="string">Aircraft/737-Next-Generation/Models/Liveries-900</liveries-path>
-	<tags>
-      <tag>boeing</tag>
-      <tag>low-wing</tag>
-      <tag>tricycle</tag>
-      <tag>retractable-gear</tag>
-      <tag>twin-engine</tag>
-      <tag>jet</tag>
-      <tag>transport</tag>
-      <tag>1990s</tag>
-      <tag>2000s</tag>
-      <tag>2010s</tag>
-      <tag>ifr</tag>
-      <tag>glass-cockpit</tag>
-    </tags>
 		<startup>
                         <splash-texture>Aircraft/737-Next-Generation/Splash/900/splash-900.png</splash-texture>
                 </startup>
