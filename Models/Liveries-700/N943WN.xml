@@ -4,7 +4,7 @@
 <sim>
     <model>
         <livery>                     
-            <name type="string">SouthWest Airlines (California One)</name>
+            <name type="string">Southwest Airlines (California One)</name>
             <texture>/Liveries-700/N943WN.png</texture>
             <newwinglets type="bool">false</newwinglets>    
             <nowinglets type="bool">false</nowinglets>            

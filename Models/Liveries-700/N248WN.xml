@@ -4,7 +4,7 @@
 <sim>
     <model>
         <livery>                     
-            <name type="string">SouthWest Airlines (2000th 737 Next Generation)</name>
+            <name type="string">Southwest Airlines (2000th 737 Next Generation)</name>
             <texture>/Liveries-700/N248WN.png</texture>
             <newwinglets type="bool">false</newwinglets>    
             <nowinglets type="bool">false</nowinglets>            
