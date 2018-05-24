@@ -35,8 +35,39 @@ var fail_dlg = gui.Dialog.new("sim/gui/dialogs/acconfig/fail/dialog", "Aircraft/
 spinning.start();
 init_dlg.open();
 
+var mismatch_chk = func {
+	if (num(string.replace(getprop("/sim/version/flightgear"),".","")) < 201810) {
+		setprop("/systems/acconfig/mismatch-code", "0x121");
+		setprop("/systems/acconfig/mismatch-reason", "FGFS version is too old! Please update FlightGear to at least 2018.1.0.");
+		if (getprop("/systems/acconfig/out-of-date") != 1) {
+			error_mismatch.open();
+		}
+		print("Mismatch: 0x121");
+		welcome_dlg.close();
+	} else if (getprop("/gear/gear[0]/wow") == 0 or getprop("/position/altitude-ft") >= 15000) {
+		setprop("/systems/acconfig/mismatch-code", "0x223");
+		setprop("/systems/acconfig/mismatch-reason", "Preposterous configuration detected for initialization. Check your position or scenery.");
+		if (getprop("/systems/acconfig/out-of-date") != 1) {
+			error_mismatch.open();
+		}
+		print("Mismatch: 0x223");
+		welcome_dlg.close();
+	} else if (getprop("/systems/acconfig/libraries-loaded") != 1) {
+		setprop("/systems/acconfig/mismatch-code", "0x247");
+		setprop("/systems/acconfig/mismatch-reason", "System files are missing or damaged. Please download a new copy of the aircraft.");
+		if (getprop("/systems/acconfig/out-of-date") != 1) {
+			error_mismatch.open();
+		}
+		print("Mismatch: 0x247");
+		welcome_dlg.close();
+	}
+	setprop("/sim/minimum-fg-version", "2018.1.0");
+	setprop("/sim/minimum-flightgear-version", getprop("/sim/minimum-fg-version"));
+}
+
 setlistener("/sim/signals/fdm-initialized", func {
 	init_dlg.close();
+	mismatch_chk();
 	welcome_dlg.open();
 	spinning.stop();
 });
