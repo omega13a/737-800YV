@@ -154,7 +154,7 @@
   
   <model>
     <name>Pushback</name>
-    <path>Models/Airport/Pushback/Goldhofert.xml</path>
+    <path>Aircraft/737-Next-Generation/Models/Pushback/pushback.xml</path>
     <offsets>
       <x-m>-16.5</x-m>
       <y-m>0</y-m>

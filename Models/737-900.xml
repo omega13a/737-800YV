@@ -50,6 +50,7 @@
   
   <model n="110">
     <name>Pushback</name>
+    <path>Aircraft/737-Next-Generation/Models/Pushback/pushback.xml</path>
     <offsets>
       <x-m>-18.0</x-m>
       <y-m>0</y-m>
