@@ -32,6 +32,7 @@ var announcements_dlg = gui.Dialog.new("sim/gui/dialogs/acconfig/announcements/d
 var lights_dlg = gui.Dialog.new("sim/gui/dialogs/acconfig/lights/dialog", "Aircraft/737-Next-Generation/AircraftConfig/lights.xml");
 var fuel_dlg = gui.Dialog.new("sim/gui/dialogs/acconfig/fuel/dialog", "Aircraft/737-Next-Generation/AircraftConfig/fuel.xml");
 var fail_dlg = gui.Dialog.new("sim/gui/dialogs/acconfig/fail/dialog", "Aircraft/737-Next-Generation/AircraftConfig/fail.xml");
+var error_mismatch = gui.Dialog.new("sim/gui/dialogs/acconfig/error/mismatch/dialog", "Aircraft/737-Next-Generation/AircraftConfig/error-mismatch.xml");
 spinning.start();
 init_dlg.open();
 

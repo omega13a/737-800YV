@@ -6,6 +6,8 @@
 		<author>Gabriel Hernandez (YV3399), Joshua Davidson (it0uchpods), RenanMsV (BR-RVD), Brandon Amaro (omega13a)</author>
 		<status>Version 1.0</status>
 		<flight-model>jsb</flight-model>
+		<minimum-fg-version type="string">2018.1.0</minimum-fg-version>
+		<minimum-flightgear-version type="string">2018.1.0</minimum-flightgear-version>
 	<tags>
       <tag>boeing</tag>
       <tag>low-wing</tag>
