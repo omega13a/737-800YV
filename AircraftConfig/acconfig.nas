@@ -56,14 +56,6 @@ var mismatch_chk = func {
 		}
 		print("Mismatch: 0x223");
 		welcome_dlg.close();
-	} else if (getprop("/systems/acconfig/libraries-loaded") != 1) {
-		setprop("/systems/acconfig/mismatch-code", "0x247");
-		setprop("/systems/acconfig/mismatch-reason", "System files are missing or damaged. Please download a new copy of the aircraft.");
-		if (getprop("/systems/acconfig/out-of-date") != 1) {
-			error_mismatch.open();
-		}
-		print("Mismatch: 0x247");
-		welcome_dlg.close();
 	}
 	setprop("/sim/minimum-fg-version", "2018.1.0");
 	setprop("/sim/minimum-flightgear-version", getprop("/sim/minimum-fg-version"));

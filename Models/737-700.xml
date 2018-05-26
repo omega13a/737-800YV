@@ -78,9 +78,9 @@
     <name>Pushback</name>
     <path>Aircraft/737-Next-Generation/Models/Pushback/pushback.xml</path>
     <offsets>
-      <x-m>-15.0</x-m>
+      <x-m>-14.5</x-m>
       <y-m>0</y-m>
-      <z-m>-4.0</z-m>
+      <z-m>-2.75</z-m>
     </offsets>
   </model>
   <!-- Lights -->
