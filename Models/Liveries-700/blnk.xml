@@ -5,9 +5,9 @@
     <model>
         <livery>                     
             <name type="string"> Blank Livery</name>
-            <texture>/Liveries-600/blnk.png</texture>
-            <newwinglets type="bool">true</newwinglets>    
-            <nowinglets type="bool">true</nowinglets>              
+            <texture>/Liveries-700/blnk.png</texture>
+            <newwinglets type="bool">false</newwinglets>    
+            <nowinglets type="bool">false</nowinglets>              
         </livery>        
     </model>
 </sim>

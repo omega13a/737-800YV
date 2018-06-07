@@ -5,7 +5,7 @@
     <model>
         <livery>                     
             <name type="string"> Blank Livery</name>
-            <texture>/Liveries-600/BNK.png</texture>
+            <texture>/Liveries-600/bnk.png</texture>
             <newwinglets type="bool">true</newwinglets>    
             <nowinglets type="bool">true</nowinglets>              
         </livery>        
