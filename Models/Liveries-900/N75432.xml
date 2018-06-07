@@ -4,9 +4,9 @@
 <sim>
     <model>
         <livery>                     
-            <name type="string">United Eco-skies</name>
-            <texture>Liveries-900/UAL-eco.png</texture>
-            <newwinglets type="bool">false</newwinglets>    
+            <name type="string">United Airlines (Eco-skies)</name>
+            <texture>Liveries-900/N75432.png</texture>
+            <newwinglets type="bool">true</newwinglets>    
             <nowinglets type="bool">false</nowinglets>            
         </livery>        
     </model>
