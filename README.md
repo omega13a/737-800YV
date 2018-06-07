@@ -1,7 +1,7 @@
 # 737 Next Generation (Boeing 737-600, -700, -800, -900)
 Boeing 737 800
 
-A very advanced simulation of the Boeing 737 Next Generation for FlightGear by GabrielYV.
+A very advanced simulation of the Boeing 737 Next Generation based on the 737-800 for FlightGear by GabrielYV.
 
 This aircraft was modified and updated in a joint effort by the following people:
 
