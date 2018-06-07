@@ -4,8 +4,8 @@
 <sim>
     <model>
         <livery>                     
-            <name type="string">Utair</name>
-            <texture>Liveries-900/UTA.png</texture>
+            <name type="string"> Blank</name>
+            <texture>Liveries-900/bnk.png</texture>
             <newwinglets type="bool">false</newwinglets>    
             <nowinglets type="bool">false</nowinglets>            
         </livery>        
