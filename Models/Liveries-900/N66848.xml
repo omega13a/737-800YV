@@ -4,7 +4,7 @@
 <sim>
     <model>
         <livery>                     
-            <name type="string">United Airlines (March of Dimes livery)</name>
+            <name type="string">United Airlines (March of Dimes)</name>
             <texture>Liveries-900/N66848.png</texture>
             <newwinglets type="bool">true</newwinglets>    
             <nowinglets type="bool">false</nowinglets>            
