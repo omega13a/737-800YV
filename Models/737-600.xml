@@ -5,7 +5,10 @@
     <z-m>-0.975</z-m>
     <!--<pitch-deg>-1.2</pitch-deg>-->
   </offsets>
- <animation n="0">
+ <animation>
+    <texture>737-600.png</texture>
+  </animation>
+  <animation n="0">
     <type>material</type>
     <object-name>fuselage</object-name>
     <object-name>doorLF</object-name>
@@ -20,7 +23,6 @@
     <object-name>geardoor</object-name>
     <object-name>engnose.001</object-name>
     <object-name>lreverserib_1</object-name>
-    <object-name>fan</object-name>
     <object-name>rhngdoor</object-name>
     <object-name>lhngdoor</object-name>
     <object-name>rhwtobfairing</object-name>
@@ -32,7 +34,6 @@
     <object-name>rudder</object-name>
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
-    <texture>737-600.png</texture>
   </animation>
   
   <model n="100">

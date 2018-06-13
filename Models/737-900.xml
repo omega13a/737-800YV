@@ -5,7 +5,7 @@
     <!--<z-m>-2.20</z-m>-->
     <!--<pitch-deg>-1.2</pitch-deg>-->
   </offsets>
-  <animation n="0">
+  <animation>
     <texture>737-900.png</texture>
   </animation>
   <model n="100">
