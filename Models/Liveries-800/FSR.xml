@@ -7,6 +7,7 @@
             <name type="string">Flightgear Spanish Room</name>
             <texture>Liveries-800/FSR.png</texture>   
 			<newwinglets type="bool">true</newwinglets> 
+			<nowinglets type="bool">false</nowinglets>
         </livery>        
     </model>
 </sim>
