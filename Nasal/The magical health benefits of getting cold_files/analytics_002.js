@@ -1,0 +1,1 @@
+Ooyala.Reporter.processSAS({"timezone":2,"authentication_time":1533276680,"key":"ZNEQCCcenWcBbW9uxHbjzmFhFHP3n7Par50ecrvx0KY=","geo_data":"afgZ4upfL0hr3og5W86NLcJyAja8CZ+cvi3VIFHKAZcm9BfhagJ+vR8bqMDzTwdR","id":"0"})
