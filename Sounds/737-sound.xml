@@ -492,7 +492,7 @@
 		<engine>
         <name>left reverse-thrust</name>
         <mode>looped</mode>
-        <path>Aircraft/737-800YV/Sounds/reverser.wav</path>
+        <path>Aircraft/737-Next-Generation/Sounds/reverser.wav</path>
         <condition>
             <property>engines/engine[0]/running</property>
         </condition>
@@ -513,7 +513,7 @@
     <engine>
         <name>right reverse-thrust</name>
         <mode>looped</mode>
-        <path>Aircraft/737-800YV/Sounds/reverser.wav</path>
+        <path>Aircraft/737-Next-Generation/Sounds/reverser.wav</path>
         <condition>
             <property>engines/engine[1]/running</property>
         </condition>
