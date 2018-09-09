@@ -77,6 +77,9 @@
 			<autopilot n="11">
 				<path>Aircraft/737-Next-Generation/Systems/fadec.xml</path>
 			</autopilot>
+			<autopilot n="12">
+				<path>Aircraft/737-Next-Generation/Systems/zoom-views.xml</path>
+			</autopilot>
 			<path>Aircraft/737-Next-Generation/Systems/systems.xml</path>
 			<property-rule n="101">
 				<path>Aircraft/737-Next-Generation/Systems/instrument-filters.xml</path>
