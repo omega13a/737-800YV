@@ -5,7 +5,7 @@
     <model>
         <livery>                     
             <name type="string">Southwest Airlines (Shark Week - Hammerhead)</name>
-            <texture>/Liveries-700/N705WN.png</texture>
+            <texture>/Liveries-700/N705SW.png</texture>
             <newwinglets type="bool">false</newwinglets>    
             <nowinglets type="bool">false</nowinglets>            
         </livery>        
