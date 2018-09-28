@@ -5,6 +5,7 @@
 	<sim>
 		<description>Boeing 737-700 (CFM56-7B22)</description>
 		<aero>737-700-20</aero>
+		<variant-of>737NG-700-20</variant-of>
 	</sim>
 	<instrumentation>
 		<cdu>
