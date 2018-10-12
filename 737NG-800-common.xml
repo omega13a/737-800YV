@@ -334,6 +334,8 @@
 			<file>Aircraft/737-Next-Generation/Nasal/limits.nas</file>
 			<file>Aircraft/737-Next-Generation/Nasal/doors.nas</file> 
 			<file>Aircraft/737-Next-Generation/Nasal/shake.nas</file> 
+			<file>Aircraft/737-Next-Generation/Nasal/warnings.nas</file>
+			<file>Aircraft/737-Next-Generation/Nasal/v-speed.nas</file>
 		</boeing737>
 		<systems>
 			<file>Aircraft/737-Next-Generation/Nasal/electrical.nas</file>

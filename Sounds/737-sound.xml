@@ -489,7 +489,7 @@
 		</position>
 	</engine>
 		
-		<engine>
+ <engine>
         <name>left reverse-thrust</name>
         <mode>looped</mode>
         <path>Aircraft/737-Next-Generation/Sounds/reverser.wav</path>
@@ -510,6 +510,7 @@
         <reference-dist>250.0</reference-dist>
         <max-dist>500.0</max-dist>
     </engine>
+
     <engine>
         <name>right reverse-thrust</name>
         <mode>looped</mode>
@@ -531,7 +532,7 @@
         <reference-dist>250.0</reference-dist>
         <max-dist>500.0</max-dist>
     </engine>
-		
+
 	        <rumble>
 			<name>rumble</name>
 			<path>Aircraft/737-Next-Generation/Sounds/rumble.wav</path>
@@ -610,6 +611,20 @@
 			<volume>
 				<factor>1.0</factor>
 			</volume>
+		</altAlert>
+		
+		 <!-- fire warning -->
+		<altAlert>
+			<name>fireAlert</name>
+			<mode>looped</mode>
+			<path>Aircraft/737-Next-Generation/Sounds/fire-bell.wav</path>
+			<property>/instrumentation/weu/outputs/fire-warn-lamp</property>
+			<volume>
+			  <factor>1.0</factor>
+			</volume>
+			<pitch>
+				<factor>0.5</factor>
+			</pitch>
 		</altAlert>
 
 		<!-- Autopilot disconnect siren -->

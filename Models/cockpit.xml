@@ -2,8 +2,8 @@
 
 <PropertyList>
  <path>cockpit.ac</path>
- 
- <animation>
+
+	<animation>
 		<type>translate</type>
 		<property>systems/shake/shaking</property>
 		<axis>
@@ -15,7 +15,7 @@
 			<z2-m> 0.8</z2-m>
 		</axis>
 	</animation>
-	
+
       <model>
         <name>flightdesk</name>
         <path>flightdesk.xml</path>
@@ -843,7 +843,7 @@
      <step>1</step>
      <min>-1</min>
      <max>4</max>                
-     <wrap>false</wrap>       
+     <wrap>true</wrap>       
    </binding>
  </action> 
 </animation> 
@@ -862,7 +862,7 @@
      <step>-1</step>
      <min>-1</min>
      <max>4</max>                
-     <wrap>false</wrap>       
+     <wrap>true</wrap>       
    </binding>
  </action> 
 </animation> 
