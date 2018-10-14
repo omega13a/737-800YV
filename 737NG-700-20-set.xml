@@ -5,6 +5,7 @@
 	<sim>
 		<description>Boeing 737-700 (CFM56-7B20)</description>
 		<aero>737-700-20</aero>
+		<primary-set>true</primary-set>
 	</sim>
 	<instrumentation>
 		<cdu>
