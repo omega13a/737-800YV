@@ -5,7 +5,7 @@
     <model>
         <livery>                     
             <name type="string">Continental Airlines (Star Alliance)</name>
-            <texture>Liveries-700/COA-SA.png</texture>
+            <texture>Liveries-700/N13720.png</texture>
             <newwinglets type="bool">false</newwinglets>    
             <nowinglets type="bool">false</nowinglets>            
         </livery>        
