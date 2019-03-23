@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+ 
+<PropertyList>
+<sim>
+    <model>
+        <livery>                     
+            <name type="string">United Airlines (50th Anniversary of the Special Olympics)</name>
+            <texture>Liveries-900/N66837.png</texture>
+            <newwinglets type="bool">true</newwinglets>    
+            <nowinglets type="bool">false</nowinglets>            
+        </livery>        
+    </model>
+</sim>
+</PropertyList>
